@@ -600,6 +600,21 @@ typedef void (^AppInboxMediaDownloadAndSaveCompletionBlock) (NSString * _Nullabl
 - (NSString *)getDeviceGuid;
 
 /**
+ @brief This method is used to get the current Smartech SDK version.
+ 
+ @discussion If you call this method you will get the current Smartech SDK version used inside the app.
+ 
+ You can use the below code.
+ 
+ @code
+ [[Smartech sharedInstance] getSDKVersion];
+ @endcode
+ 
+ @return NSString The current Smartech SDK version.
+ */
+- (NSString *)getSDKVersion;
+
+/**
  @brief This method is used to manually process events.
  
  @discussion If you call this method the Smartech SDK will start the processing immediately.
