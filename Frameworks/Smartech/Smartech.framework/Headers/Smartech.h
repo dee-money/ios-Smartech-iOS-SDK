@@ -363,7 +363,7 @@ typedef void (^AppInboxMediaDownloadAndSaveCompletionBlock) (NSString * _Nullabl
  @param eventName The event name to be tracked.
  @param payloadDictionary The payload as dictionary which has event related parameters
  */
-- (void)trackEvent:(NSString *)eventName andPayload:(NSDictionary * _Nullable)payloadDictionary;
+- (void)trackEvent:(NSString * _Nonnull)eventName andPayload:(NSDictionary * _Nullable)payloadDictionary;
 
 /**
  @brief This method is used to send login event to Smartech backend.
@@ -568,6 +568,21 @@ typedef void (^AppInboxMediaDownloadAndSaveCompletionBlock) (NSString * _Nullabl
 
 
 #pragma mark - Helper Methods
+
+/**
+ @brief This method is used to get the app id used by the Smartech SDK.
+ 
+ @discussion If you call this method you will get the app id used by the Smartech SDK.
+ 
+ You can use the below code.
+ 
+ @code
+ [[Smartech sharedInstance] getAppId];
+ @endcode
+ 
+ @return NSString The app id used by Smartech SDK.
+ */
+- (NSString *)getAppId;
 
 /**
  @brief This method is used to get the device push token used by Smartech SDK.
