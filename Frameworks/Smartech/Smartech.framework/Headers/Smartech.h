@@ -77,7 +77,7 @@ typedef void (^AppInboxMediaDownloadAndSaveCompletionBlock) (NSString * _Nullabl
 @property (nonatomic, weak, readonly) id <SmartechDelegate> delegate;
 @property (nonatomic, strong, readonly) SmartechHandler *smartechHandler;
 @property (nonatomic, strong, readonly) SMTNotifcationContentHandler *notifcationContentHandler;
-
+@property (nonatomic, assign) BOOL appDidBecomeVisible;
 
 #pragma mark - SDK Init Methods
 
@@ -100,8 +100,9 @@ typedef void (^AppInboxMediaDownloadAndSaveCompletionBlock) (NSString * _Nullabl
  @endcode
  
  @param delegate The Smartech delegate.
+ @param launchOptions The launch option dictionary.
  */
-- (void)initSDKWithDelegate:(id <SmartechDelegate>)delegate;
+- (void)initSDKWithDelegate:(id<SmartechDelegate>)delegate withLaunchOptions:(NSDictionary * _Nullable)launchOptions;
 
 
 #pragma mark - Push Notification Methods
@@ -184,7 +185,7 @@ typedef void (^AppInboxMediaDownloadAndSaveCompletionBlock) (NSString * _Nullabl
  
  @param userInfo A dictionary that contains information related to the remote notification, potentially including a badge number for the app icon, an alert sound, an alert message to display to the user, a notification identifier, and custom data.
  */
-- (void)didReceiveRemoteNotification:(NSDictionary *)userInfo;
+- (void)didReceiveRemoteNotification:(NSDictionary *)userInfo withCompletionHandler:(void(^)(UIBackgroundFetchResult bgFetchResult))completionBlock;
 
 /**
  @brief The method will be called on the delegate only if the application is in the foreground. The application can choose to have the notification presented as a sound, badge, alert and/or in the notification list.
@@ -628,6 +629,19 @@ typedef void (^AppInboxMediaDownloadAndSaveCompletionBlock) (NSString * _Nullabl
  @return NSString The current Smartech SDK version.
  */
 - (NSString *)getSDKVersion;
+
+/**
+ @brief This method is used to set the device advertiser id to be shared with Smartech backend.
+ 
+ @discussion The developer needs to handle capturing of advertised id and then pass it to the SDK which will send it to the backend.
+ 
+ You can use the below code.
+ 
+ @code
+ [[Smartech sharedInstance] setDeviceAdvertiserId:@""];
+ @endcode
+ */
+- (void)setDeviceAdvertiserId:(NSString *)advertiserId;
 
 /**
  @brief This method is used to manually process events.
