@@ -102,7 +102,7 @@ typedef void (^AppInboxMediaDownloadAndSaveCompletionBlock) (NSString * _Nullabl
  @param delegate The Smartech delegate.
  @param launchOptions The launch option dictionary.
  */
-- (void)initSDKWithDelegate:(id<SmartechDelegate>)delegate withLaunchOptions:(NSDictionary * _Nullable)launchOptions;
+- (void)initSDKWithDelegate:(id <SmartechDelegate>)delegate withLaunchOptions:(NSDictionary * _Nullable)launchOptions;
 
 
 #pragma mark - Push Notification Methods

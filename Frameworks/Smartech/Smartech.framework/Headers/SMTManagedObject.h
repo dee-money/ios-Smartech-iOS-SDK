@@ -10,6 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+static NSString *const kSMTDatabaseObjectID = @"objectID";
+
 @interface SMTManagedObject : NSManagedObject
 
 /**
@@ -117,6 +119,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSUInteger)countForObjectsWithPredictate:(NSPredicate * _Nullable)predicate
                              sortDescriptor:(NSSortDescriptor * _Nullable)sortDescriptor
                                   inContext:(NSManagedObjectContext *)context;
+
+
 /**
  @brief This method is called to save the objets into the database.
  
