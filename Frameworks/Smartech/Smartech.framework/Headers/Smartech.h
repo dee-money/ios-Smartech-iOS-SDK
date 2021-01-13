@@ -695,6 +695,23 @@ typedef void (^AppInboxMediaDownloadAndSaveCompletionBlock) (NSString * _Nullabl
  */
 - (BOOL)isNotificationFromSmartech:(NSDictionary *)userInfo;
 
+/**
+ @brief This method is for opening URL from the Smartech SDK.
+ 
+ @discussion You need to call this method inside your app delegates application:openURL method.
+ 
+ You can use the below code.
+ 
+ @code
+ [[Smartech sharedInstance] application:app openURL:url options:options];
+ @endcode
+ 
+ @param app The instace of Application.
+ @param url The URL to open.
+ @param options The launch option dictionary.
+ @return true if url is created for pairing process, false if the url is not created for pariing process. If false is returned, then the app should handle the url.
+ */
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options;
 
 @end
 
