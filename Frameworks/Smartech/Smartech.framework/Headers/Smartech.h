@@ -10,6 +10,7 @@
 #import <UserNotifications/UserNotifications.h>
 #import <UserNotificationsUI/UserNotificationsUI.h>
 #import <CoreLocation/CoreLocation.h>
+#import <WebKit/WebKit.h>
 
 //! Project version number for Smartech.
 FOUNDATION_EXPORT double SmartechVersionNumber;
@@ -70,6 +71,17 @@ typedef void (^AppInboxMediaDownloadAndSaveCompletionBlock) (NSString * _Nullabl
 
 @end
 
+@protocol SMTAppWebViewDelegate <NSObject>
+
+/**
+ @brief This delegate method will be triggered when the auto-track is not enabled from web app page.
+ 
+ @param message - The script message received from webpage.
+ */
+- (void)handleAppWebViewEvent:(WKScriptMessage *)message;
+
+@end
+
 
 @interface Smartech : NSObject
 
@@ -78,6 +90,7 @@ typedef void (^AppInboxMediaDownloadAndSaveCompletionBlock) (NSString * _Nullabl
 @property (nonatomic, strong, readonly) SmartechHandler *smartechHandler;
 @property (nonatomic, strong, readonly) SMTNotifcationContentHandler *notifcationContentHandler;
 @property (nonatomic, assign) BOOL appDidBecomeVisible;
+@property (nonatomic, weak) id <SMTAppWebViewDelegate> smtAppWebViewDelegate;
 
 #pragma mark - SDK Init Methods
 
@@ -712,6 +725,30 @@ typedef void (^AppInboxMediaDownloadAndSaveCompletionBlock) (NSString * _Nullabl
  @return true if url is created for pairing process, false if the url is not created for pariing process. If false is returned, then the app should handle the url.
  */
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options;
+
+/*
+ @brief This method adds app info and device info to webview.
+ 
+ @param appDictionary Add users parameter.
+ 
+ */
+- (WKUserScript *)getSmartechAppWebScript:(NSDictionary * _Nullable)appDictionary;
+
+/**
+ @brief This method sets messageHandler name.
+ 
+ @return messageHandler name.
+ 
+ */
+- (NSString *)getSmartechAppWebMessageHandler;
+
+/**
+ @brief Track a event when script message is received from a webpage.
+ 
+ @param message The script message received from webpage.
+ 
+ */
+- (void)appWebDidReceiveScriptMessage:(WKScriptMessage *)message;
 
 @end
 
