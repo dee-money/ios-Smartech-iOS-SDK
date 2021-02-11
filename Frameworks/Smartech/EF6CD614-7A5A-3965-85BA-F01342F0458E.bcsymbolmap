@@ -1,7 +1,7 @@
 BCSymbolMap Version: 2.0
-Apple clang version 12.0.0 (clang-1200.0.32.28)
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk
-iPhoneOS14.3.sdk
+Apple clang version 12.0.0 (clang-1200.0.32.29)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk
+iPhoneOS14.4.sdk
 /Users/shankarthorve/Documents/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/build/Smartech.build/Release-iphoneos/Smartech.build/DerivedSources/Smartech_vers.c
 /Users/shankarthorve/Documents/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech
 -[SMTNotificationServiceExtension didReceiveNotificationRequest:withContentHandler:]
@@ -384,7 +384,7 @@ __OBJC_CLASS_RO_$_SMTNetworkQueue
 Smartech/NetworkLayer/Core Network/SMTNetworkQueue.m
 Smartech/NetworkLayer/Core Network/SMTNetworkQueue.h
 __33+[SMTNetworkQueue sharedInstance]_block_invoke
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/dispatch/once.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/dispatch/once.h
 -[SMTOperation init]
 -[SMTOperation setReady:]
 -[SMTOperation isReady]
@@ -1306,6 +1306,9 @@ Smartech/NetworkLayer/APIManager/SMTAPIManager.m
 +[SMTInitializeParser parseBaseURLDictionary:]
 +[SMTInitializeParser parseRemoteDebugDictionary:]
 +[SMTInitializeParser checkAndEnabledRemoteLogsBasedOnGuid:]
++[SMTInitializeParser parseEventSettingsDictionary:]
+_OBJC_CLASSLIST_REFERENCES_$_.84
+_OBJC_CLASSLIST_REFERENCES_$_.99
 __OBJC_$_CLASS_METHODS_SMTInitializeParser
 __OBJC_METACLASS_RO_$_SMTInitializeParser
 __OBJC_CLASS_RO_$_SMTInitializeParser
@@ -1549,6 +1552,8 @@ Smartech/Utility/Info/SMTAppInfo.h
 -[SMTSmartechSettings setRemoteDebug:]
 -[SMTSmartechSettings eventLimit]
 -[SMTSmartechSettings setEventLimit:]
+-[SMTSmartechSettings eventSettings]
+-[SMTSmartechSettings setEventSettings:]
 -[SMTSmartechSettings .cxx_destruct]
 -[SMTBaseURL initWithCoder:]
 -[SMTBaseURL encodeWithCoder:]
@@ -1576,6 +1581,19 @@ Smartech/Utility/Info/SMTAppInfo.h
 -[SMTRemoteDebug shouldEnableLogs]
 -[SMTRemoteDebug setShouldEnableLogs:]
 -[SMTRemoteDebug .cxx_destruct]
+-[SMTEventSettings initWithCoder:]
+-[SMTEventSettings encodeWithCoder:]
+-[SMTEventSettings toNSDictionary]
+-[SMTEventSettings shouldSendLifeCycleEvents]
+-[SMTEventSettings setShouldSendLifeCycleEvents:]
+-[SMTEventSettings shouldSendPushEvents]
+-[SMTEventSettings setShouldSendPushEvents:]
+-[SMTEventSettings shouldSendInappEvents]
+-[SMTEventSettings setShouldSendInappEvents:]
+-[SMTEventSettings shouldSendAppInboxEvents]
+-[SMTEventSettings setShouldSendAppInboxEvents:]
+-[SMTEventSettings shouldSendAppAllEvents]
+-[SMTEventSettings setShouldSendAppAllEvents:]
 __OBJC_METACLASS_RO_$_SMTInitializeModel
 __OBJC_$_INSTANCE_METHODS_SMTInitializeModel
 _OBJC_IVAR_$_SMTInitializeModel._smartechSettings
@@ -1601,6 +1619,7 @@ _OBJC_IVAR_$_SMTSmartechSettings._tokenInterval
 _OBJC_IVAR_$_SMTSmartechSettings._baseURLs
 _OBJC_IVAR_$_SMTSmartechSettings._remoteDebug
 _OBJC_IVAR_$_SMTSmartechSettings._eventLimit
+_OBJC_IVAR_$_SMTSmartechSettings._eventSettings
 __OBJC_$_INSTANCE_VARIABLES_SMTSmartechSettings
 __OBJC_$_PROP_LIST_SMTSmartechSettings
 __OBJC_CLASS_RO_$_SMTSmartechSettings
@@ -1615,11 +1634,11 @@ _OBJC_IVAR_$_SMTBaseURL._listSegmentURL
 __OBJC_$_INSTANCE_VARIABLES_SMTBaseURL
 __OBJC_$_PROP_LIST_SMTBaseURL
 __OBJC_CLASS_RO_$_SMTBaseURL
-_OBJC_SELECTOR_REFERENCES_.172
-_OBJC_SELECTOR_REFERENCES_.174
-_OBJC_SELECTOR_REFERENCES_.176
-_OBJC_SELECTOR_REFERENCES_.178
-_OBJC_SELECTOR_REFERENCES_.184
+_OBJC_SELECTOR_REFERENCES_.189
+_OBJC_SELECTOR_REFERENCES_.191
+_OBJC_SELECTOR_REFERENCES_.193
+_OBJC_SELECTOR_REFERENCES_.201
+_OBJC_SELECTOR_REFERENCES_.203
 __OBJC_CLASS_PROTOCOLS_$_SMTRemoteDebug
 __OBJC_METACLASS_RO_$_SMTRemoteDebug
 __OBJC_$_INSTANCE_METHODS_SMTRemoteDebug
@@ -1630,9 +1649,25 @@ _OBJC_IVAR_$_SMTRemoteDebug._guids
 __OBJC_$_INSTANCE_VARIABLES_SMTRemoteDebug
 __OBJC_$_PROP_LIST_SMTRemoteDebug
 __OBJC_CLASS_RO_$_SMTRemoteDebug
+_OBJC_SELECTOR_REFERENCES_.220
+_OBJC_SELECTOR_REFERENCES_.222
+_OBJC_SELECTOR_REFERENCES_.224
+_OBJC_SELECTOR_REFERENCES_.226
+_OBJC_SELECTOR_REFERENCES_.228
+__OBJC_CLASS_PROTOCOLS_$_SMTEventSettings
+__OBJC_METACLASS_RO_$_SMTEventSettings
+__OBJC_$_INSTANCE_METHODS_SMTEventSettings
+_OBJC_IVAR_$_SMTEventSettings._shouldSendLifeCycleEvents
+_OBJC_IVAR_$_SMTEventSettings._shouldSendPushEvents
+_OBJC_IVAR_$_SMTEventSettings._shouldSendInappEvents
+_OBJC_IVAR_$_SMTEventSettings._shouldSendAppInboxEvents
+_OBJC_IVAR_$_SMTEventSettings._shouldSendAppAllEvents
+__OBJC_$_INSTANCE_VARIABLES_SMTEventSettings
+__OBJC_$_PROP_LIST_SMTEventSettings
+__OBJC_CLASS_RO_$_SMTEventSettings
 /Users/shankarthorve/Documents/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Models/SMTInitializeModel.m
-Smartech/NetworkLayer/Models/SMTInitializeModel.m
 Smartech/NetworkLayer/Models/SMTInitializeModel.h
+Smartech/NetworkLayer/Models/SMTInitializeModel.m
 -[SMTEventProcessingService initWithTimeInterval:eventBatchSize:]
 -[SMTEventProcessingService start]
 ___34-[SMTEventProcessingService start]_block_invoke
@@ -1923,8 +1958,6 @@ _OBJC_IVAR_$_SMTWhomTo._segmentIdArray
 __OBJC_$_INSTANCE_VARIABLES_SMTWhomTo
 __OBJC_$_PROP_LIST_SMTWhomTo
 __OBJC_CLASS_RO_$_SMTWhomTo
-_OBJC_SELECTOR_REFERENCES_.191
-_OBJC_SELECTOR_REFERENCES_.193
 __OBJC_CLASS_PROTOCOLS_$_SMTEvents
 __OBJC_METACLASS_RO_$_SMTEvents
 __OBJC_$_INSTANCE_METHODS_SMTEvents
@@ -1938,11 +1971,6 @@ _OBJC_SELECTOR_REFERENCES_.210
 _OBJC_SELECTOR_REFERENCES_.214
 _OBJC_SELECTOR_REFERENCES_.216
 _OBJC_SELECTOR_REFERENCES_.218
-_OBJC_SELECTOR_REFERENCES_.220
-_OBJC_SELECTOR_REFERENCES_.222
-_OBJC_SELECTOR_REFERENCES_.224
-_OBJC_SELECTOR_REFERENCES_.226
-_OBJC_SELECTOR_REFERENCES_.228
 _OBJC_SELECTOR_REFERENCES_.230
 __OBJC_CLASS_PROTOCOLS_$_SMTRules
 __OBJC_METACLASS_RO_$_SMTRules
@@ -2158,14 +2186,12 @@ _OBJC_CLASSLIST_REFERENCES_$_.129
 ___block_descriptor_24_e4_20bs_e7_v8?0I4l
 ___block_literal_global.179
 _OBJC_CLASSLIST_REFERENCES_$_.180
+_OBJC_SELECTOR_REFERENCES_.184
 _OBJC_SELECTOR_REFERENCES_.186
 _OBJC_CLASSLIST_REFERENCES_$_.187
-_OBJC_SELECTOR_REFERENCES_.189
 _OBJC_CLASSLIST_REFERENCES_$_.194
 _OBJC_SELECTOR_REFERENCES_.196
 _OBJC_CLASSLIST_REFERENCES_$_.197
-_OBJC_SELECTOR_REFERENCES_.201
-_OBJC_SELECTOR_REFERENCES_.203
 _OBJC_SELECTOR_REFERENCES_.205
 _OBJC_SELECTOR_REFERENCES_.211
 _OBJC_SELECTOR_REFERENCES_.213
@@ -2313,6 +2339,9 @@ ___61+[SMTInAppRuleEvaluator performOperation:forRule:completion:]_block_invoke
 ___copy_helper_block_e4_20b24s
 ___block_descriptor_48_e4_20s28s32s36r40r44r_e24_v16?0"SMTRules"4I8^c12l
 _OBJC_CLASSLIST_REFERENCES_$_.166
+_OBJC_SELECTOR_REFERENCES_.172
+_OBJC_SELECTOR_REFERENCES_.174
+_OBJC_SELECTOR_REFERENCES_.178
 _OBJC_CLASSLIST_REFERENCES_$_.183
 _OBJC_SELECTOR_REFERENCES_.187
 _OBJC_CLASSLIST_REFERENCES_$_.214
@@ -2364,7 +2393,7 @@ __destroy_helper_block_e4_20s28s32s36r40r44r
 __copy_helper_block_e4_20s28s32s36r40r44r
 __65+[SMTInAppRuleEvaluator evaluateWhomTo:forRuleEvent:withPayload:]_block_invoke
 __inline_isnand
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/usr/include/math.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/math.h
 +[SMTEventPersistenceService addEventWithId:eventType:payload:inContext:]
 +[SMTEventPersistenceService addEventWithName:eventType:payload:inContext:]
 +[SMTEventPersistenceService getEventGroupsBasedOnBatchSize:inContext:]
@@ -2556,6 +2585,7 @@ __OBJC_$_INSTANCE_METHODS_SMTAlert
 __OBJC_$_INSTANCE_VARIABLES_SMTAlert
 __OBJC_$_PROP_LIST_SMTAlert
 __OBJC_CLASS_RO_$_SMTAlert
+_OBJC_SELECTOR_REFERENCES_.176
 _OBJC_CLASSLIST_REFERENCES_$_.188
 _OBJC_SELECTOR_REFERENCES_.198
 _OBJC_IVAR_$_SMTPayload._category
@@ -2817,7 +2847,6 @@ ___68-[SMTAppInboxViewController recordClickedEventForCell:withDeeplink:]_block_
 -[SMTAppInboxViewController setDidViewLoaded:]
 -[SMTAppInboxViewController .cxx_destruct]
 _OBJC_IVAR_$_SMTAppInboxViewController._didViewLoaded
-_OBJC_CLASSLIST_REFERENCES_$_.84
 _OBJC_IVAR_$_SMTAppInboxViewController._appInboxArray
 _OBJC_SELECTOR_REFERENCES_.127
 _OBJC_CLASSLIST_REFERENCES_$_.152
@@ -3242,7 +3271,7 @@ Smartech/Notifications/Views/SMTCarouselView.m
 Smartech/Notifications/Views/SMTCarouselView.h
 __59-[SMTCarouselView collectionView:didSelectItemAtIndexPath:]_block_invoke
 CGSizeMake
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
 __97-[SMTCarouselView didReceiveCarouselPayload:hasInboxEvent:downloadQueue:andPlaceholderImageName:]_block_invoke.82
 __97-[SMTCarouselView didReceiveCarouselPayload:hasInboxEvent:downloadQueue:andPlaceholderImageName:]_block_invoke
 -[SMTSimpleCell awakeFromNib]
@@ -3550,6 +3579,7 @@ ___85+[SMTEventRecorder recordInboxNotificationDismissedEventWithId:eventType:an
 +[SMTEventRecorder checkInAppMessageWithEventId:eventName:eventType:payload:]
 +[SMTEventRecorder getDeliveredNotificationTridFromTray:]
 +[SMTEventRecorder getDeliveredNotificationIdentifierFromTray:withMatchingTrid:]
++[SMTEventRecorder shouldProcessEvent:]
 ___block_descriptor_32_e4__e31_v8?0"NSManagedObjectContext"4l
 ___block_descriptor_36_e4_24s_e31_v8?0"NSManagedObjectContext"4l
 ___block_descriptor_36_e4_24s28s_e31_v8?0"NSManagedObjectContext"4l
@@ -3558,9 +3588,10 @@ ___block_descriptor_44_e4_20s_e31_v8?0"NSManagedObjectContext"4l
 ___block_descriptor_36_e4_20s_e31_v8?0"NSManagedObjectContext"4l
 ___block_descriptor_40_e4_20s24s_e31_v8?0"NSManagedObjectContext"4l
 ___block_descriptor_32_e4__e16_v8?0"NSArray"4l
+_OBJC_CLASSLIST_REFERENCES_$_.119
 ___block_descriptor_36_e4_24s_e16_v8?0"NSArray"4l
-_OBJC_CLASSLIST_REFERENCES_$_.133
-_OBJC_CLASSLIST_REFERENCES_$_.140
+_OBJC_CLASSLIST_REFERENCES_$_.145
+_OBJC_CLASSLIST_REFERENCES_$_.151
 __OBJC_$_CLASS_METHODS_SMTEventRecorder
 __OBJC_METACLASS_RO_$_SMTEventRecorder
 __OBJC_CLASS_RO_$_SMTEventRecorder
