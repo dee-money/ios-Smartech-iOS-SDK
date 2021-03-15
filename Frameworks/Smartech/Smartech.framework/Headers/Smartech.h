@@ -709,6 +709,25 @@ typedef void (^AppInboxMediaDownloadAndSaveCompletionBlock) (NSString * _Nullabl
 - (BOOL)isNotificationFromSmartech:(NSDictionary *)userInfo;
 
 /**
+ @brief Using this method user can set current location of the user which will be used by SDK.
+ 
+ @discussion If this method is called by developer SDK need not call startupdainglocation
+ 
+ @param location CLLocation object
+ */
+
+- (void)setLocation:(CLLocation*)location;
+
+/**
+ @brief This method will be used to handle authorisation state changes
+ 
+ @discussion This method will be used to handle authorisation state changes
+ 
+ @param status CLAuthorizationStatus
+ */
+- (void)handleDidChangeAuthorizationStatus:(CLAuthorizationStatus)status;
+
+/*
  @brief This method is for opening URL from the Smartech SDK.
  
  @discussion You need to call this method inside your app delegates application:openURL method.

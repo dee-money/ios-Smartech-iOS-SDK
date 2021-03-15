@@ -128,6 +128,20 @@ static NSString *const kSMTDatabaseObjectID = @"objectID";
  */
 - (NSError * _Nullable)save;
 
+
+/**
+@brief This method is called to fetch the objects from the database with record limit
+
+@param predicate The where clause.
+@param recordLimit record limit
+@param context The core data context.
+
+@return NSArray A list of objects.
+ */
++ (NSArray *)findObjectsWithPredictate:(NSPredicate * _Nullable)predicate
+                             withLimit:(NSInteger)recordLimit
+                             inContext:(NSManagedObjectContext *)context;
+
 @end
 
 NS_ASSUME_NONNULL_END
