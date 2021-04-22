@@ -74,7 +74,7 @@ Set if the url with Smartech for adding a test device.
 @return true if url is created for pairing process, false if the url is not created for pariing process. If false is returned, then the app should handle the url.
 
 */
-- (BOOL)handleTestDeviceUrl:(NSURL * _Nullable)url;
+- (BOOL) handleTestDeviceUrl:(NSURL * _Nullable)url;
 
 
 @end
