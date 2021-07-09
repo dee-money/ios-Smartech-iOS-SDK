@@ -21,7 +21,9 @@ FOUNDATION_EXPORT const unsigned char SmartechVersionString[];
 // In this header, you should import all the public headers of your framework using statements like
 // #import <Smartech/PublicHeader.h>
 
-//#import <Smartech/SMTNotificationServiceExtension.h>
+#import <Smartech/SMTServiceOperation.h>
+#import <Smartech/SMTBaseRequest.h>
+#import <Smartech/SMTAppInboxSettings.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -542,6 +544,15 @@ typedef NS_ENUM(NSUInteger, SMTLogLevel) {
  
  */
 - (void)appWebDidReceiveScriptMessage:(WKScriptMessage *)message;
+
+
+/**
+@brief This method is to be used by associated child SDKs of Smartech only.
+
+@return BOOL If YES network connection is available
+*/
+- (BOOL)isNetworkConnectionAvailable;
+
 
 @end
 
