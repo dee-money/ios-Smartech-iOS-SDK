@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                    = 'Smartech-iOS-SDK'
-  s.version                 = '3.2.1'
+  s.version                 = '3.1.5'
   s.summary                 = 'The Smartech iOS SDK for App Analytics and User Engagement.'
   s.description             = <<-DESC
                                 Smartech is a omni channel platform that delivers everything you need to drive mobile engagement and create valuable consumer relationships on mobile.
@@ -17,4 +17,6 @@ Pod::Spec.new do |s|
   s.module_map              = 'Frameworks/Smartech/Smartech.framework/Modules/module.modulemap'
   s.frameworks              = 'Foundation', 'UIKit', 'SystemConfiguration', 'Security', 'CoreData'
   s.weak_framework          = 'UserNotifications'
+  s.pod_target_xcconfig     = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig    = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
