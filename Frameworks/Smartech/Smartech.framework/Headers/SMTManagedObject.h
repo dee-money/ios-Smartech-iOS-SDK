@@ -142,8 +142,6 @@ static NSString *const kSMTDatabaseObjectID = @"objectID";
                              withLimit:(NSInteger)recordLimit
                              inContext:(NSManagedObjectContext *)context;
 
-+ (NSArray *)findObjectsWithDistinct:(NSManagedObjectContext *)context;
-
 @end
 
 NS_ASSUME_NONNULL_END
