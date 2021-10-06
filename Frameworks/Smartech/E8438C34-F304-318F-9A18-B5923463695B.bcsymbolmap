@@ -1429,10 +1429,8 @@ Smartech/NetworkLayer/APIManager/SMTAPIManager.m
 +[SMTInitializeParser checkAndEnabledRemoteLogsBasedOnGuid:]
 +[SMTInitializeParser parseEventSettingsDictionary:]
 +[SMTInitializeParser parseGeoFenceSettingsDictionary:]
-_OBJC_CLASSLIST_REFERENCES_$_.97
-_OBJC_CLASSLIST_REFERENCES_$_.112
-_OBJC_SELECTOR_REFERENCES_.127
-_OBJC_CLASSLIST_REFERENCES_$_.134
+_OBJC_CLASSLIST_REFERENCES_$_.102
+_OBJC_CLASSLIST_REFERENCES_$_.117
 __OBJC_$_CLASS_METHODS_SMTInitializeParser
 __OBJC_METACLASS_RO_$_SMTInitializeParser
 __OBJC_CLASS_RO_$_SMTInitializeParser
@@ -2313,7 +2311,6 @@ ___54-[SMTNotificationOperation getCarouselModifiedContent]_block_invoke
 -[SMTNotificationOperation .cxx_destruct]
 ___block_descriptor_40_e8_32s_e34_v16?0"UNNotificationAttachment"8l
 _OBJC_CLASSLIST_REFERENCES_$_.96
-_OBJC_CLASSLIST_REFERENCES_$_.117
 ___block_descriptor_48_e8_32s40s_e28_v32?0"SMTCarousel"8Q16^B24l
 _OBJC_CLASSLIST_REFERENCES_$_.132
 _OBJC_IVAR_$_SMTNotificationOperation._notificationCompletionBlock
@@ -2992,6 +2989,7 @@ Smartech/Utility/Reachability/SMTReachabilityHelper.m
 -[SMTBaseRequest sdkVersion]
 -[SMTBaseRequest setSdkVersion:]
 -[SMTBaseRequest .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.97
 __OBJC_$_PROTOCOL_REFS_SMTBackendAPIRequest
 __OBJC_$_PROTOCOL_INSTANCE_METHODS_SMTBackendAPIRequest
 __OBJC_$_PROTOCOL_METHOD_TYPES_SMTBackendAPIRequest
@@ -3103,6 +3101,7 @@ ___68-[SMTAppInboxViewController recordClickedEventForCell:withDeeplink:]_block_
 _OBJC_IVAR_$_SMTAppInboxViewController._didViewLoaded
 _OBJC_CLASSLIST_REFERENCES_$_.84
 _OBJC_IVAR_$_SMTAppInboxViewController._appInboxArray
+_OBJC_SELECTOR_REFERENCES_.127
 _OBJC_CLASSLIST_REFERENCES_$_.152
 _OBJC_CLASSLIST_REFERENCES_$_.184
 _OBJC_IVAR_$_SMTAppInboxViewController._mediaDownloadQueue
@@ -3689,6 +3688,7 @@ ___33+[SmartechAdapter sharedInstance]_block_invoke
 -[SmartechAdapter setListAndSegmentData:]
 -[SmartechAdapter setUserIdentity:]
 -[SmartechAdapter application:openURL:options:]
+-[SmartechAdapter hanselURlEndPoints:]
 -[SmartechAdapter isHanselSDKPresent]
 -[SmartechAdapter getHanselSDKInstance]
 -[SmartechAdapter trackEvent:andPayload:]

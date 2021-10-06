@@ -69,6 +69,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (BOOL)application:(UIApplication * _Nullable)app openURL:(NSURL * _Nullable)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> * _Nullable)options;
 
+- (void)hanselURlEndPoints:(NSDictionary *)urlDict;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -33,6 +33,8 @@
  */
 - (void)fetchListAndSegment;
 
+- (void)hanselURlEndPoints;
+
 @end
 
 #endif /* SmartechProtocol_h */
