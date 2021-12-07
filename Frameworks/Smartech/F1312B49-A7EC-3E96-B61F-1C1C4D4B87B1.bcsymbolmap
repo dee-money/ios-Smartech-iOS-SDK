@@ -2,13 +2,13 @@ BCSymbolMap Version: 2.0
 Apple clang version 13.0.0 (clang-1300.0.29.3)
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk
 iPhoneOS15.0.sdk
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/build/Smartech.build/Release-iphoneos/Smartech.build/DerivedSources/Smartech_vers.c
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/build/Smartech.build/Release-iphoneos/Smartech.build/DerivedSources/Smartech_vers.c
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech
 +[SMTInAppPersistenceService addRuleWithPayload:inContext:]
 +[SMTInAppPersistenceService deleteExistingBasedOnNewRules:inContext:]
 ___70+[SMTInAppPersistenceService deleteExistingBasedOnNewRules:inContext:]_block_invoke
-___copy_helper_block_e4_20s28r
-___destroy_helper_block_e4_20s28r
+___copy_helper_block_e8_32s48r
+___destroy_helper_block_e8_32s48r
 +[SMTInAppPersistenceService updateExistingBasedOnNewRules:inContext:]
 +[SMTInAppPersistenceService resetInAppRulesCGRandomInContext:]
 +[SMTInAppPersistenceService getRulesForEventWithId:eventName:date:inContext:]
@@ -17,8 +17,8 @@ ___destroy_helper_block_e4_20s28r
 ___Block_byref_object_copy_
 ___Block_byref_object_dispose_
 ___98+[SMTInAppPersistenceService incrementAlreadyViewedCountForRule:withFrequencyTypeValue:inContext:]_block_invoke
-___copy_helper_block_e4_20s24s28s32r
-___destroy_helper_block_e4_20s24s28s32r
+___copy_helper_block_e8_32s40s48s56r
+___destroy_helper_block_e8_32s40s48s56r
 +[SMTInAppPersistenceService getAllExistingRulesIdInContext:]
 +[SMTInAppPersistenceService getInAppRulesIdenfierFromRules:]
 +[SMTInAppPersistenceService getEventNameListFromWhomToRules:forEventName:]
@@ -72,7 +72,7 @@ _OBJC_SELECTOR_REFERENCES_.80
 _OBJC_SELECTOR_REFERENCES_.82
 _OBJC_SELECTOR_REFERENCES_.84
 _OBJC_SELECTOR_REFERENCES_.88
-___block_descriptor_32_e4_20s28r_e5_v4?0l
+___block_descriptor_56_e8_32s48r_e5_v8?0l
 _OBJC_SELECTOR_REFERENCES_.93
 _OBJC_CLASSLIST_REFERENCES_$_.94
 _OBJC_SELECTOR_REFERENCES_.96
@@ -111,38 +111,38 @@ _OBJC_SELECTOR_REFERENCES_.172
 _OBJC_SELECTOR_REFERENCES_.174
 _OBJC_SELECTOR_REFERENCES_.176
 _OBJC_SELECTOR_REFERENCES_.178
-___block_descriptor_36_e4_20s24s28s32r_e5_v4?0l
+___block_descriptor_64_e8_32s40s48s56r_e5_v8?0l
 _OBJC_SELECTOR_REFERENCES_.180
 _OBJC_CLASSLIST_REFERENCES_$_.185
 _OBJC_SELECTOR_REFERENCES_.193
 __OBJC_$_CLASS_METHODS_SMTInAppPersistenceService
 __OBJC_METACLASS_RO_$_SMTInAppPersistenceService
 __OBJC_CLASS_RO_$_SMTInAppPersistenceService
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/DBLayer/Services/SMTInAppPersistenceService.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/DBLayer/Services/SMTInAppPersistenceService.m
 Smartech/DBLayer/Services/SMTInAppPersistenceService.m
 __62+[SMTInAppPersistenceService deleteAllExistingRulesInContext:]_block_invoke
-__destroy_helper_block_e4_20s24s28s32r
-__copy_helper_block_e4_20s24s28s32r
+__destroy_helper_block_e8_32s40s48s56r
+__copy_helper_block_e8_32s40s48s56r
 __98+[SMTInAppPersistenceService incrementAlreadyViewedCountForRule:withFrequencyTypeValue:inContext:]_block_invoke
 __Block_byref_object_dispose_
 __Block_byref_object_copy_
-__destroy_helper_block_e4_20s28r
-__copy_helper_block_e4_20s28r
+__destroy_helper_block_e8_32s48r
+__copy_helper_block_e8_32s48r
 __70+[SMTInAppPersistenceService deleteExistingBasedOnNewRules:inContext:]_block_invoke
 -[SMTImageViewController viewDidLoad]
 -[SMTImageViewController init]
 -[SMTImageViewController loadViewWithURLString:onBanner:deeplink:]
 ___66-[SMTImageViewController loadViewWithURLString:onBanner:deeplink:]_block_invoke
-___copy_helper_block_e4_20s24s28s
-___destroy_helper_block_e4_20s24s28s
+___copy_helper_block_e8_32s40s48s
+___destroy_helper_block_e8_32s40s48s
 -[SMTImageViewController setImageViewFromPath:]
 -[SMTImageViewController getImageFromURL:]
 -[SMTImageViewController addtranslucentEffectOnView:]
 -[SMTImageViewController setUpTapGestureRecognizerOnView:withTarget:action:]
 -[SMTImageViewController gestureRecognizer:shouldReceiveTouch:]
 ___63-[SMTImageViewController gestureRecognizer:shouldReceiveTouch:]_block_invoke
-___copy_helper_block_e4_20s
-___destroy_helper_block_e4_20s
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
 -[SMTImageViewController handleTapEvent:]
 -[SMTImageViewController setUpImageView:onSuperView:withBanner:]
 -[SMTImageViewController headerBannerConstraintsForImgView:onSuperView:]
@@ -171,7 +171,7 @@ _OBJC_SELECTOR_REFERENCES_.56
 _OBJC_SELECTOR_REFERENCES_.58
 _OBJC_SELECTOR_REFERENCES_.60
 _OBJC_SELECTOR_REFERENCES_.64
-___block_descriptor_36_e4_20s24s28s_e5_v4?0l
+___block_descriptor_64_e8_32s40s48s_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.66
 _OBJC_SELECTOR_REFERENCES_.70
 _OBJC_SELECTOR_REFERENCES_.72
@@ -201,7 +201,7 @@ _OBJC_SELECTOR_REFERENCES_.135
 _OBJC_SELECTOR_REFERENCES_.137
 _OBJC_CLASSLIST_REFERENCES_$_.138
 _OBJC_SELECTOR_REFERENCES_.140
-___block_descriptor_24_e4_20s_e37_v16?0"NSString"4c8"NSDictionary"12l
+___block_descriptor_40_e8_32s_e38_v28?0"NSString"8B16"NSDictionary"20l
 _OBJC_SELECTOR_REFERENCES_.157
 _OBJC_CLASSLIST_REFERENCES_$_.171
 _OBJC_SELECTOR_REFERENCES_.173
@@ -231,16 +231,14 @@ __OBJC_$_INSTANCE_METHODS_SMTImageViewController
 __OBJC_$_INSTANCE_VARIABLES_SMTImageViewController
 __OBJC_$_PROP_LIST_SMTImageViewController
 __OBJC_CLASS_RO_$_SMTImageViewController
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/InAppMessaging/Controllers/SMTImageViewController.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/InAppMessaging/Controllers/SMTImageViewController.m
 Smartech/InAppMessaging/Controllers/SMTImageViewController.m
 Smartech/InAppMessaging/Controllers/SMTImageViewController.h
-UIDeviceOrientationIsLandscape
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIDevice.h
-__destroy_helper_block_e4_20s
-__copy_helper_block_e4_20s
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32s
 __63-[SMTImageViewController gestureRecognizer:shouldReceiveTouch:]_block_invoke
-__destroy_helper_block_e4_20s24s28s
-__copy_helper_block_e4_20s24s28s
+__destroy_helper_block_e8_32s40s48s
+__copy_helper_block_e8_32s40s48s
 __66-[SMTImageViewController loadViewWithURLString:onBanner:deeplink:]_block_invoke
 -[SMTWebViewController viewDidLoad]
 -[SMTWebViewController init]
@@ -310,7 +308,7 @@ _OBJC_SELECTOR_REFERENCES_.104
 _OBJC_CLASSLIST_REFERENCES_$_.105
 _OBJC_CLASSLIST_REFERENCES_$_.111
 _OBJC_SELECTOR_REFERENCES_.115
-___block_descriptor_24_e4_20s_e29_v12?0"NSString"4"NSError"8l
+___block_descriptor_40_e8_32s_e30_v24?0"NSString"8"NSError"16l
 _OBJC_SELECTOR_REFERENCES_.126
 _OBJC_SELECTOR_REFERENCES_.128
 _OBJC_SELECTOR_REFERENCES_.130
@@ -369,7 +367,7 @@ __OBJC_$_INSTANCE_METHODS_SMTWebViewController
 __OBJC_$_INSTANCE_VARIABLES_SMTWebViewController
 __OBJC_$_PROP_LIST_SMTWebViewController
 __OBJC_CLASS_RO_$_SMTWebViewController
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/InAppMessaging/Controllers/SMTWebViewController.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/InAppMessaging/Controllers/SMTWebViewController.m
 Smartech/InAppMessaging/Controllers/SMTWebViewController.m
 Smartech/InAppMessaging/Controllers/SMTWebViewController.h
 __70-[SMTWebViewController userContentController:didReceiveScriptMessage:]_block_invoke
@@ -401,7 +399,7 @@ __OBJC_$_INSTANCE_METHODS_SMTTrackEventRequest
 __OBJC_$_INSTANCE_VARIABLES_SMTTrackEventRequest
 __OBJC_$_PROP_LIST_SMTTrackEventRequest
 __OBJC_CLASS_RO_$_SMTTrackEventRequest
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Requests/SMTTrackEventRequest.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Requests/SMTTrackEventRequest.m
 Smartech/NetworkLayer/Requests/SMTTrackEventRequest.m
 +[SMTDataAndTypeCheckUtility isArrayNotEmpty:]
 +[SMTDataAndTypeCheckUtility getNumberFromString:]
@@ -416,7 +414,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.15
 __OBJC_$_CLASS_METHODS_SMTDataAndTypeCheckUtility
 __OBJC_METACLASS_RO_$_SMTDataAndTypeCheckUtility
 __OBJC_CLASS_RO_$_SMTDataAndTypeCheckUtility
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/DataTypeCheck/SMTDataAndTypeCheckUtility.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/DataTypeCheck/SMTDataAndTypeCheckUtility.m
 Smartech/Utility/DataTypeCheck/SMTDataAndTypeCheckUtility.m
 +[SMTNetworkQueue sharedInstance]
 ___33+[SMTNetworkQueue sharedInstance]_block_invoke
@@ -427,7 +425,7 @@ ___33+[SMTNetworkQueue sharedInstance]_block_invoke
 -[SMTNetworkQueue .cxx_destruct]
 _sharedInstance.sharedInstance
 _sharedInstance.onceToken
-___block_descriptor_20_e5_v4?0l
+___block_descriptor_32_e5_v8?0l
 ___block_literal_global
 _OBJC_CLASSLIST_REFERENCES_$_.1
 _OBJC_SELECTOR_REFERENCES_.3
@@ -438,7 +436,7 @@ _OBJC_IVAR_$_SMTNetworkQueue._queue
 __OBJC_$_INSTANCE_VARIABLES_SMTNetworkQueue
 __OBJC_$_PROP_LIST_SMTNetworkQueue
 __OBJC_CLASS_RO_$_SMTNetworkQueue
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Core Network/SMTNetworkQueue.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Core Network/SMTNetworkQueue.m
 Smartech/NetworkLayer/Core Network/SMTNetworkQueue.m
 Smartech/NetworkLayer/Core Network/SMTNetworkQueue.h
 __33+[SMTNetworkQueue sharedInstance]_block_invoke
@@ -459,7 +457,7 @@ _OBJC_SELECTOR_REFERENCES_.32
 __OBJC_METACLASS_RO_$_SMTGeoFenceParser
 __OBJC_$_INSTANCE_METHODS_SMTGeoFenceParser
 __OBJC_CLASS_RO_$_SMTGeoFenceParser
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Parser/SMTGeoFenceParser.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Parser/SMTGeoFenceParser.m
 Smartech/NetworkLayer/Parser/SMTGeoFenceParser.m
 -[SMTOperation init]
 -[SMTOperation setReady:]
@@ -479,7 +477,7 @@ __OBJC_METACLASS_RO_$_SMTOperation
 __OBJC_$_INSTANCE_METHODS_SMTOperation
 __OBJC_$_INSTANCE_VARIABLES_SMTOperation
 __OBJC_CLASS_RO_$_SMTOperation
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Core Network/SMTOperation.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Core Network/SMTOperation.m
 Smartech/NetworkLayer/Core Network/SMTOperation.m
 +[SMTInAppRuleOperation sharedInstance]
 ___39+[SMTInAppRuleOperation sharedInstance]_block_invoke
@@ -487,24 +485,24 @@ ___39+[SMTInAppRuleOperation sharedInstance]_block_invoke
 -[SMTInAppRuleOperation start]
 ___30-[SMTInAppRuleOperation start]_block_invoke
 ___30-[SMTInAppRuleOperation start]_block_invoke_2
-___copy_helper_block_e4_20s24s28r32r
-___destroy_helper_block_e4_20s24s28r32r
-___copy_helper_block_e4_20s24s28s32s36s40r44r
-___destroy_helper_block_e4_20s24s28s32s36s40r44r
+___copy_helper_block_e8_32s40s48r56r
+___destroy_helper_block_e8_32s40s48r56r
+___copy_helper_block_e8_32s40s48s56s64s72r80r
+___destroy_helper_block_e8_32s40s48s56s64s72r80r
 -[SMTInAppRuleOperation evaluateControlGroupForRule:]
 -[SMTInAppRuleOperation fetchExistingDisplayCountForRule:onDate:]
 -[SMTInAppRuleOperation contentCompleteWithRule:withFrequencyTypeValue:]
 ___72-[SMTInAppRuleOperation contentCompleteWithRule:withFrequencyTypeValue:]_block_invoke
-___copy_helper_block_e4_20s24s28s32s36r40r44r
-___destroy_helper_block_e4_20s24s28s32s36r40r44r
+___copy_helper_block_e8_32s40s48s56s64r72r80r
+___destroy_helper_block_e8_32s40s48s56s64r72r80r
 ___72-[SMTInAppRuleOperation contentCompleteWithRule:withFrequencyTypeValue:]_block_invoke.154
-___copy_helper_block_e4_20s24r
-___destroy_helper_block_e4_20s24r
+___copy_helper_block_e8_32s40r
+___destroy_helper_block_e8_32s40r
 -[SMTInAppRuleOperation shouldAppendInAppCreativeWithBaseURL:]
 -[SMTInAppRuleOperation getTrackedEventsArrayForRule:inContext:]
 ___64-[SMTInAppRuleOperation getTrackedEventsArrayForRule:inContext:]_block_invoke
-___copy_helper_block_e4_20s24s28r
-___destroy_helper_block_e4_20s24s28r
+___copy_helper_block_e8_32s40s48r
+___destroy_helper_block_e8_32s40s48r
 -[SMTInAppRuleOperation ruleEvaluationCompletionBlock]
 -[SMTInAppRuleOperation setRuleEvaluationCompletionBlock:]
 -[SMTInAppRuleOperation eventId]
@@ -521,8 +519,8 @@ _OBJC_SELECTOR_REFERENCES_.20
 _OBJC_CLASSLIST_REFERENCES_$_.21
 _OBJC_CLASSLIST_REFERENCES_$_.29
 _OBJC_CLASSLIST_REFERENCES_$_.60
-___block_descriptor_36_e4_20s24s28r32r_e7_v8?0c4l
-___block_descriptor_48_e4_20s24s28s32s36s40r44r_e5_v4?0l
+___block_descriptor_64_e8_32s40s48r56r_e8_v12?0B8l
+___block_descriptor_88_e8_32s40s48s56s64s72r80r_e5_v8?0l
 _OBJC_SELECTOR_REFERENCES_.86
 _OBJC_SELECTOR_REFERENCES_.90
 _OBJC_CLASSLIST_REFERENCES_$_.91
@@ -534,20 +532,20 @@ _OBJC_SELECTOR_REFERENCES_.141
 _OBJC_CLASSLIST_REFERENCES_$_.142
 _OBJC_SELECTOR_REFERENCES_.146
 _OBJC_CLASSLIST_REFERENCES_$_.149
-___block_descriptor_48_e4_20s24s28s32s36r40r44r_e5_v4?0l
+___block_descriptor_88_e8_32s40s48s56s64r72r80r_e5_v8?0l
 _OBJC_SELECTOR_REFERENCES_.156
 _OBJC_SELECTOR_REFERENCES_.158
 _OBJC_SELECTOR_REFERENCES_.160
 _OBJC_SELECTOR_REFERENCES_.162
 _OBJC_SELECTOR_REFERENCES_.164
 _OBJC_SELECTOR_REFERENCES_.166
-___block_descriptor_28_e4_20s24r_e5_v4?0l
+___block_descriptor_48_e8_32s40r_e5_v8?0l
 _OBJC_SELECTOR_REFERENCES_.179
 _OBJC_SELECTOR_REFERENCES_.185
 _OBJC_CLASSLIST_REFERENCES_$_.191
 _OBJC_SELECTOR_REFERENCES_.195
 _OBJC_SELECTOR_REFERENCES_.199
-___block_descriptor_32_e4_20s24s28r_e5_v4?0l
+___block_descriptor_56_e8_32s40s48r_e5_v8?0l
 _OBJC_IVAR_$_SMTInAppRuleOperation._ruleEvaluationCompletionBlock
 _OBJC_IVAR_$_SMTInAppRuleOperation._eventId
 _OBJC_IVAR_$_SMTInAppRuleOperation._eventName
@@ -559,21 +557,21 @@ __OBJC_$_INSTANCE_METHODS_SMTInAppRuleOperation
 __OBJC_$_INSTANCE_VARIABLES_SMTInAppRuleOperation
 __OBJC_$_PROP_LIST_SMTInAppRuleOperation
 __OBJC_CLASS_RO_$_SMTInAppRuleOperation
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/InAppMessaging/Operations/SMTInAppRuleOperation.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/InAppMessaging/Operations/SMTInAppRuleOperation.m
 Smartech/InAppMessaging/Operations/SMTInAppRuleOperation.m
-__destroy_helper_block_e4_20s24s28r
-__copy_helper_block_e4_20s24s28r
+__destroy_helper_block_e8_32s40s48r
+__copy_helper_block_e8_32s40s48r
 __64-[SMTInAppRuleOperation getTrackedEventsArrayForRule:inContext:]_block_invoke
-__destroy_helper_block_e4_20s24r
-__copy_helper_block_e4_20s24r
+__destroy_helper_block_e8_32s40r
+__copy_helper_block_e8_32s40r
 __72-[SMTInAppRuleOperation contentCompleteWithRule:withFrequencyTypeValue:]_block_invoke.154
-__destroy_helper_block_e4_20s24s28s32s36r40r44r
-__copy_helper_block_e4_20s24s28s32s36r40r44r
+__destroy_helper_block_e8_32s40s48s56s64r72r80r
+__copy_helper_block_e8_32s40s48s56s64r72r80r
 __72-[SMTInAppRuleOperation contentCompleteWithRule:withFrequencyTypeValue:]_block_invoke
-__destroy_helper_block_e4_20s24s28s32s36s40r44r
-__copy_helper_block_e4_20s24s28s32s36s40r44r
-__destroy_helper_block_e4_20s24s28r32r
-__copy_helper_block_e4_20s24s28r32r
+__destroy_helper_block_e8_32s40s48s56s64s72r80r
+__copy_helper_block_e8_32s40s48s56s64s72r80r
+__destroy_helper_block_e8_32s40s48r56r
+__copy_helper_block_e8_32s40s48r56r
 __30-[SMTInAppRuleOperation start]_block_invoke_2
 __30-[SMTInAppRuleOperation start]_block_invoke
 __39+[SMTInAppRuleOperation sharedInstance]_block_invoke
@@ -587,7 +585,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.12
 __OBJC_METACLASS_RO_$_SMTInitializeRequest
 __OBJC_$_INSTANCE_METHODS_SMTInitializeRequest
 __OBJC_CLASS_RO_$_SMTInitializeRequest
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Requests/SMTInitializeRequest.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Requests/SMTInitializeRequest.m
 Smartech/NetworkLayer/Requests/SMTInitializeRequest.m
 +[SMTPreferences sharedInstance]
 ___32+[SMTPreferences sharedInstance]_block_invoke
@@ -619,7 +617,7 @@ _OBJC_IVAR_$_SMTPreferences._sharedUserDefault
 __OBJC_$_INSTANCE_VARIABLES_SMTPreferences
 __OBJC_$_PROP_LIST_SMTPreferences
 __OBJC_CLASS_RO_$_SMTPreferences
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/Preferences/SMTPreferences.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/Preferences/SMTPreferences.m
 Smartech/Utility/Preferences/SMTPreferences.m
 __32+[SMTPreferences sharedInstance]_block_invoke
 -[SMTHanselConfig initWithInfoPlist:]
@@ -639,7 +637,7 @@ _OBJC_IVAR_$_SMTHanselConfig._appKey
 __OBJC_$_INSTANCE_VARIABLES_SMTHanselConfig
 __OBJC_$_PROP_LIST_SMTHanselConfig
 __OBJC_CLASS_RO_$_SMTHanselConfig
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/Config/SMTHanselConfig.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/Config/SMTHanselConfig.m
 Smartech/Utility/Config/SMTHanselConfig.m
 Smartech/Utility/Config/SMTHanselConfig.h
 +[SMTPreferencesManager getAllStoredPreferences]
@@ -767,14 +765,14 @@ ___50+[SMTPreferencesManager getSmartechAttrParameters]_block_invoke
 +[SMTPreferencesManager resetInAppFrequencyCount]
 _OBJC_CLASSLIST_REFERENCES_$_.30
 _OBJC_CLASSLIST_REFERENCES_$_.59
-___block_descriptor_24_e4_20s_e34_v16?0"NSString"4"NSString"8^c12l
+___block_descriptor_40_e8_32s_e35_v32?0"NSString"8"NSString"16^B24l
 _OBJC_CLASSLIST_REFERENCES_$_.92
 _OBJC_SELECTOR_REFERENCES_.94
 _OBJC_SELECTOR_REFERENCES_.98
 __OBJC_$_CLASS_METHODS_SMTPreferencesManager
 __OBJC_METACLASS_RO_$_SMTPreferencesManager
 __OBJC_CLASS_RO_$_SMTPreferencesManager
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/Preferences/SMTPreferencesManager.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/Preferences/SMTPreferencesManager.m
 Smartech/Utility/Preferences/SMTPreferencesManager.m
 __50+[SMTPreferencesManager getSmartechAttrParameters]_block_invoke
 -[SMTGeoFenceModel initWithDictionary:]
@@ -801,20 +799,20 @@ __50+[SMTPreferencesManager getSmartechAttrParameters]_block_invoke
 -[SMTGeoFenceModel .cxx_destruct]
 __OBJC_METACLASS_RO_$_SMTGeoFenceModel
 __OBJC_$_INSTANCE_METHODS_SMTGeoFenceModel
+_OBJC_IVAR_$_SMTGeoFenceModel._latitude
+_OBJC_IVAR_$_SMTGeoFenceModel._longitude
+_OBJC_IVAR_$_SMTGeoFenceModel._radius
 _OBJC_IVAR_$_SMTGeoFenceModel._createdDate
 _OBJC_IVAR_$_SMTGeoFenceModel._updatedDate
 _OBJC_IVAR_$_SMTGeoFenceModel._geofenceName
 _OBJC_IVAR_$_SMTGeoFenceModel._geofenceId
 _OBJC_IVAR_$_SMTGeoFenceModel._dwellTime
-_OBJC_IVAR_$_SMTGeoFenceModel._region
-_OBJC_IVAR_$_SMTGeoFenceModel._latitude
-_OBJC_IVAR_$_SMTGeoFenceModel._longitude
-_OBJC_IVAR_$_SMTGeoFenceModel._radius
 _OBJC_IVAR_$_SMTGeoFenceModel._distance
+_OBJC_IVAR_$_SMTGeoFenceModel._region
 __OBJC_$_INSTANCE_VARIABLES_SMTGeoFenceModel
 __OBJC_$_PROP_LIST_SMTGeoFenceModel
 __OBJC_CLASS_RO_$_SMTGeoFenceModel
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Models/GeoFence/SMTGeoFenceModel.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Models/GeoFence/SMTGeoFenceModel.m
 Smartech/NetworkLayer/Models/GeoFence/SMTGeoFenceModel.m
 Smartech/NetworkLayer/Models/GeoFence/SMTGeoFenceModel.h
 +[SMTManagedObject fetchRequest]
@@ -826,16 +824,16 @@ ___55+[SMTManagedObject fetchAllObjectByProperty:inContext:]_block_invoke
 ___64+[SMTManagedObject fetchAllObjectsWithSortDescriptor:inContext:]_block_invoke
 +[SMTManagedObject findObjectsWithPredictate:sortDescriptor:inContext:]
 ___71+[SMTManagedObject findObjectsWithPredictate:sortDescriptor:inContext:]_block_invoke
-___copy_helper_block_e4_20s24s32r36r
-___destroy_helper_block_e4_20s24s32r36r
+___copy_helper_block_e8_32s40s56r64r
+___destroy_helper_block_e8_32s40s56r64r
 +[SMTManagedObject findObjectsWithPredictate:inContext:]
 ___56+[SMTManagedObject findObjectsWithPredictate:inContext:]_block_invoke
 +[SMTManagedObject findObjectsWithPredictate:withLimit:inContext:]
 ___66+[SMTManagedObject findObjectsWithPredictate:withLimit:inContext:]_block_invoke
 +[SMTManagedObject insertNewObjectForEntityWithManagedContext:]
 ___63+[SMTManagedObject insertNewObjectForEntityWithManagedContext:]_block_invoke
-___copy_helper_block_e4_24s28r
-___destroy_helper_block_e4_24s28r
+___copy_helper_block_e8_40s48r
+___destroy_helper_block_e8_40s48r
 +[SMTManagedObject batchDeleteRequestWithPredictate:inContext:]
 ___63+[SMTManagedObject batchDeleteRequestWithPredictate:inContext:]_block_invoke
 +[SMTManagedObject batchUpdateRequestForProperties:withPredictate:inContext:]
@@ -846,11 +844,11 @@ ___75+[SMTManagedObject countForObjectsWithPredictate:sortDescriptor:inContext:]
 ___24-[SMTManagedObject save]_block_invoke
 +[SMTManagedObject findObjectsWithDistinct:]
 ___44+[SMTManagedObject findObjectsWithDistinct:]_block_invoke
-___block_descriptor_36_e4_20s24s28r32r_e5_v4?0l
+___block_descriptor_64_e8_32s40s48r56r_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.10
-___block_descriptor_40_e4_20s24s32r36r_e5_v4?0l
+___block_descriptor_72_e8_32s40s56r64r_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.39
-___block_descriptor_32_e4_24s28r_e5_v4?0l
+___block_descriptor_56_e8_40s48r_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.51
 _OBJC_CLASSLIST_REFERENCES_$_.56
 _OBJC_SELECTOR_REFERENCES_.81
@@ -858,20 +856,20 @@ __OBJC_$_CLASS_METHODS_SMTManagedObject
 __OBJC_METACLASS_RO_$_SMTManagedObject
 __OBJC_$_INSTANCE_METHODS_SMTManagedObject
 __OBJC_CLASS_RO_$_SMTManagedObject
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/DBLayer/Entities/SMTManagedObject.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/DBLayer/Entities/SMTManagedObject.m
 __44+[SMTManagedObject findObjectsWithDistinct:]_block_invoke
 Smartech/DBLayer/Entities/SMTManagedObject.m
 __24-[SMTManagedObject save]_block_invoke
 __75+[SMTManagedObject countForObjectsWithPredictate:sortDescriptor:inContext:]_block_invoke
 __77+[SMTManagedObject batchUpdateRequestForProperties:withPredictate:inContext:]_block_invoke
 __63+[SMTManagedObject batchDeleteRequestWithPredictate:inContext:]_block_invoke
-__destroy_helper_block_e4_24s28r
-__copy_helper_block_e4_24s28r
+__destroy_helper_block_e8_40s48r
+__copy_helper_block_e8_40s48r
 __63+[SMTManagedObject insertNewObjectForEntityWithManagedContext:]_block_invoke
 __66+[SMTManagedObject findObjectsWithPredictate:withLimit:inContext:]_block_invoke
 __56+[SMTManagedObject findObjectsWithPredictate:inContext:]_block_invoke
-__destroy_helper_block_e4_20s24s32r36r
-__copy_helper_block_e4_20s24s32r36r
+__destroy_helper_block_e8_32s40s56r64r
+__copy_helper_block_e8_32s40s56r64r
 __71+[SMTManagedObject findObjectsWithPredictate:sortDescriptor:inContext:]_block_invoke
 __64+[SMTManagedObject fetchAllObjectsWithSortDescriptor:inContext:]_block_invoke
 __55+[SMTManagedObject fetchAllObjectByProperty:inContext:]_block_invoke
@@ -899,7 +897,7 @@ __OBJC_CLASS_PROTOCOLS_$_SMTAppInboxAdapter
 __OBJC_METACLASS_RO_$_SMTAppInboxAdapter
 __OBJC_$_INSTANCE_METHODS_SMTAppInboxAdapter
 __OBJC_CLASS_RO_$_SMTAppInboxAdapter
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/AppInboxUtility/SMTAppInboxAdapter.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/AppInboxUtility/SMTAppInboxAdapter.m
 Smartech/AppInboxUtility/SMTAppInboxAdapter.m
 __36+[SMTAppInboxAdapter sharedInstance]_block_invoke
 -[SMTPushAmpOperation initWithUserIdentity:info:andCompletion:]
@@ -913,8 +911,8 @@ ___28-[SMTPushAmpOperation start]_block_invoke.29
 -[SMTPushAmpOperation request]
 -[SMTPushAmpOperation setRequest:]
 -[SMTPushAmpOperation .cxx_destruct]
-___block_descriptor_24_e4_20s_e21_v8?0"NSDictionary"4l
-___block_descriptor_24_e4_20s_e16_v8?0"NSError"4l
+___block_descriptor_40_e8_32s_e22_v16?0"NSDictionary"8l
+___block_descriptor_40_e8_32s_e17_v16?0"NSError"8l
 _OBJC_IVAR_$_SMTPushAmpOperation._completion
 _OBJC_IVAR_$_SMTPushAmpOperation._request
 __OBJC_METACLASS_RO_$_SMTPushAmpOperation
@@ -922,7 +920,7 @@ __OBJC_$_INSTANCE_METHODS_SMTPushAmpOperation
 __OBJC_$_INSTANCE_VARIABLES_SMTPushAmpOperation
 __OBJC_$_PROP_LIST_SMTPushAmpOperation
 __OBJC_CLASS_RO_$_SMTPushAmpOperation
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Operations/SMTPushAmpOperation.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Operations/SMTPushAmpOperation.m
 Smartech/NetworkLayer/Operations/SMTPushAmpOperation.m
 __28-[SMTPushAmpOperation start]_block_invoke.29
 __28-[SMTPushAmpOperation start]_block_invoke
@@ -937,19 +935,19 @@ __OBJC_CLASS_PROTOCOLS_$_SMTJSONParameterEncoder
 __OBJC_METACLASS_RO_$_SMTJSONParameterEncoder
 __OBJC_$_PROP_LIST_SMTJSONParameterEncoder
 __OBJC_CLASS_RO_$_SMTJSONParameterEncoder
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Core Network/Encoding/SMTJSONParameterEncoder.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Core Network/Encoding/SMTJSONParameterEncoder.m
 Smartech/NetworkLayer/Core Network/Encoding/SMTJSONParameterEncoder.m
 +[SMTUserProfile shouldSyncUserProfile:]
 +[SMTUserProfile fetchListAndSegmentData]
 ___41+[SMTUserProfile fetchListAndSegmentData]_block_invoke
 _OBJC_CLASSLIST_REFERENCES_$_.2
-___block_descriptor_20_e33_v12?0"NSDictionary"4"NSError"8l
+___block_descriptor_32_e34_v24?0"NSDictionary"8"NSError"16l
 _OBJC_CLASSLIST_REFERENCES_$_.26
 _OBJC_CLASSLIST_REFERENCES_$_.31
 __OBJC_$_CLASS_METHODS_SMTUserProfile
 __OBJC_METACLASS_RO_$_SMTUserProfile
 __OBJC_CLASS_RO_$_SMTUserProfile
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/UserProfile/SMTUserProfile.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/UserProfile/SMTUserProfile.m
 __41+[SMTUserProfile fetchListAndSegmentData]_block_invoke
 Smartech/UserProfile/SMTUserProfile.m
 +[SMTLogger setDebugLevel:]
@@ -960,7 +958,7 @@ __debugLevel
 __OBJC_$_CLASS_METHODS_SMTLogger
 __OBJC_METACLASS_RO_$_SMTLogger
 __OBJC_CLASS_RO_$_SMTLogger
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Logger/SMTLogger.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Logger/SMTLogger.m
 Smartech/Logger/SMTLogger.m
 -[SMTGeoFenceFilter initWithLocationCoordinates:]
 -[SMTGeoFenceFilter currentCoordinate]
@@ -981,16 +979,16 @@ Smartech/Logger/SMTLogger.m
 __OBJC_METACLASS_RO_$_SMTGeoFenceFilter
 __OBJC_$_INSTANCE_METHODS_SMTGeoFenceFilter
 _OBJC_IVAR_$_SMTGeoFenceFilter._recordLimit
+_OBJC_IVAR_$_SMTGeoFenceFilter._latRadiusDifferenceInDegree
+_OBJC_IVAR_$_SMTGeoFenceFilter._longRadiusDifferenceInDegree
 _OBJC_IVAR_$_SMTGeoFenceFilter._groupIds
 _OBJC_IVAR_$_SMTGeoFenceFilter._radiansDeltaIncrements
 _OBJC_IVAR_$_SMTGeoFenceFilter._deviceRecordLimitation
-_OBJC_IVAR_$_SMTGeoFenceFilter._latRadiusDifferenceInDegree
-_OBJC_IVAR_$_SMTGeoFenceFilter._longRadiusDifferenceInDegree
 _OBJC_IVAR_$_SMTGeoFenceFilter._currentCoordinate
 __OBJC_$_INSTANCE_VARIABLES_SMTGeoFenceFilter
 __OBJC_$_PROP_LIST_SMTGeoFenceFilter
 __OBJC_CLASS_RO_$_SMTGeoFenceFilter
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/GeoFence/SMTGeoFenceFilter.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/GeoFence/SMTGeoFenceFilter.m
 Smartech/GeoFence/SMTGeoFenceFilter.m
 Smartech/GeoFence/SMTGeoFenceFilter.h
 +[SMTInAppMessageController sharedInstance]
@@ -1002,8 +1000,8 @@ ___80-[SMTInAppMessageController showMessageWithEventId:eventName:eventType:payl
 ___80-[SMTInAppMessageController showMessageWithEventId:eventName:eventType:payload:]_block_invoke_2
 -[SMTInAppMessageController setupWebControllerAndWindow]
 ___56-[SMTInAppMessageController setupWebControllerAndWindow]_block_invoke
-___copy_helper_block_e4_20r
-___destroy_helper_block_e4_20r
+___copy_helper_block_e8_32r
+___destroy_helper_block_e8_32r
 -[SMTInAppMessageController didTapOnView]
 -[SMTInAppMessageController onWebViewLoaded:]
 -[SMTInAppMessageController validateListAndSegments:completionHandler:]
@@ -1015,8 +1013,8 @@ ___58-[SMTInAppMessageController setupImageControllerAndWindow]_block_invoke
 ___61-[SMTInAppMessageController handleInAppNativeImage:imageUrl:]_block_invoke
 ___61-[SMTInAppMessageController handleInAppNativeImage:imageUrl:]_block_invoke_2
 ___61-[SMTInAppMessageController handleInAppNativeImage:imageUrl:]_block_invoke.197
-___copy_helper_block_e4_20s24s
-___destroy_helper_block_e4_20s24s
+___copy_helper_block_e8_32s40s
+___destroy_helper_block_e8_32s40s
 -[SMTInAppMessageController inAppWindow]
 -[SMTInAppMessageController setInAppWindow:]
 -[SMTInAppMessageController webViewController]
@@ -1027,12 +1025,12 @@ ___destroy_helper_block_e4_20s24s
 -[SMTInAppMessageController setQueue:]
 -[SMTInAppMessageController .cxx_destruct]
 ___clang_at_available_requires_core_foundation_framework
-___block_descriptor_32_e4_20s24s28s_e5_v4?0l
-___block_descriptor_24_e4_20s_e39_v16?0c4"SMTInAppEventRule"8"NSURL"12l
+___block_descriptor_56_e8_32s40s48s_e5_v8?0l
+___block_descriptor_40_e8_32s_e40_v28?0B8"SMTInAppEventRule"12"NSURL"20l
 _OBJC_CLASSLIST_REFERENCES_$_.57
 _OBJC_CLASSLIST_REFERENCES_$_.72
 _OBJC_SELECTOR_REFERENCES_.74
-___block_descriptor_24_e4_20r_e20_v12?0"UIScene"4^c8l
+___block_descriptor_40_e8_32r_e21_v24?0"UIScene"8^B16l
 _OBJC_CLASSLIST_REFERENCES_$_.82
 _OBJC_CLASSLIST_REFERENCES_$_.85
 _OBJC_CLASSLIST_REFERENCES_$_.96
@@ -1048,12 +1046,12 @@ _OBJC_CLASSLIST_REFERENCES_$_.163
 _OBJC_SELECTOR_REFERENCES_.186
 _OBJC_CLASSLIST_REFERENCES_$_.187
 _OBJC_CLASSLIST_REFERENCES_$_.190
-___block_descriptor_24_e4_20s_e5_v4?0l
+___block_descriptor_40_e8_32s_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.196
 _OBJC_CLASSLIST_REFERENCES_$_.200
-___block_descriptor_32_e4_20s24s28s_e31_v8?0"NSManagedObjectContext"4l
+___block_descriptor_56_e8_32s40s48s_e32_v16?0"NSManagedObjectContext"8l
 _OBJC_SELECTOR_REFERENCES_.205
-___block_descriptor_28_e4_20s24s_e33_v8?0"UNNotificationAttachment"4l
+___block_descriptor_48_e8_32s40s_e34_v16?0"UNNotificationAttachment"8l
 _OBJC_SELECTOR_REFERENCES_.214
 __OBJC_$_CLASS_METHODS_SMTInAppMessageController
 __OBJC_$_PROTOCOL_REFS_SMTWebViewControllerDelegate
@@ -1076,17 +1074,17 @@ _OBJC_IVAR_$_SMTInAppMessageController._queue
 __OBJC_$_INSTANCE_VARIABLES_SMTInAppMessageController
 __OBJC_$_PROP_LIST_SMTInAppMessageController
 __OBJC_CLASS_RO_$_SMTInAppMessageController
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/InAppMessaging/Controllers/SMTInAppMessageController.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/InAppMessaging/Controllers/SMTInAppMessageController.m
 Smartech/InAppMessaging/Controllers/SMTInAppMessageController.m
 Smartech/InAppMessaging/Controllers/SMTInAppMessageController.h
-__destroy_helper_block_e4_20s24s
-__copy_helper_block_e4_20s24s
+__destroy_helper_block_e8_32s40s
+__copy_helper_block_e8_32s40s
 __61-[SMTInAppMessageController handleInAppNativeImage:imageUrl:]_block_invoke.197
 __61-[SMTInAppMessageController handleInAppNativeImage:imageUrl:]_block_invoke_2
 __61-[SMTInAppMessageController handleInAppNativeImage:imageUrl:]_block_invoke
 __58-[SMTInAppMessageController setupImageControllerAndWindow]_block_invoke
-__destroy_helper_block_e4_20r
-__copy_helper_block_e4_20r
+__destroy_helper_block_e8_32r
+__copy_helper_block_e8_32r
 __56-[SMTInAppMessageController setupWebControllerAndWindow]_block_invoke
 __80-[SMTInAppMessageController showMessageWithEventId:eventName:eventType:payload:]_block_invoke_2
 __80-[SMTInAppMessageController showMessageWithEventId:eventName:eventType:payload:]_block_invoke
@@ -1115,7 +1113,7 @@ _OBJC_SELECTOR_REFERENCES_.124
 __OBJC_$_CLASS_METHODS_SMTInAppRuleParser
 __OBJC_METACLASS_RO_$_SMTInAppRuleParser
 __OBJC_CLASS_RO_$_SMTInAppRuleParser
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Parser/SMTInAppRuleParser.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Parser/SMTInAppRuleParser.m
 Smartech/NetworkLayer/Parser/SMTInAppRuleParser.m
 +[SMTDeeplinkHelper handleOpenURLScheme:withCompletion:]
 +[SMTDeeplinkHelper handleUniversalLinkWithUserActivity:andCompletion:]
@@ -1124,7 +1122,7 @@ Smartech/NetworkLayer/Parser/SMTInAppRuleParser.m
 __OBJC_$_CLASS_METHODS_SMTDeeplinkHelper
 __OBJC_METACLASS_RO_$_SMTDeeplinkHelper
 __OBJC_CLASS_RO_$_SMTDeeplinkHelper
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/Deeplink/SMTDeeplinkHelper.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/Deeplink/SMTDeeplinkHelper.m
 Smartech/Utility/Deeplink/SMTDeeplinkHelper.m
 +[SMTFileUtility appGroupURLWithAppGroup:]
 +[SMTFileUtility appGroupURL]
@@ -1137,7 +1135,7 @@ __appGroup
 __OBJC_$_CLASS_METHODS_SMTFileUtility
 __OBJC_METACLASS_RO_$_SMTFileUtility
 __OBJC_CLASS_RO_$_SMTFileUtility
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/FileUtility/SMTFileUtility.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/FileUtility/SMTFileUtility.m
 Smartech/Utility/FileUtility/SMTFileUtility.m
 +[SMTAPIManager initializeSDKWithInfo:andCompletion:]
 +[SMTAPIManager sendEvents:withInfo:andCompletion:]
@@ -1147,15 +1145,15 @@ Smartech/Utility/FileUtility/SMTFileUtility.m
 +[SMTAPIManager getListAndSegmentForUser:andCompletion:]
 +[SMTAPIManager getGeofenceListWithCompletion:]
 ___47+[SMTAPIManager getGeofenceListWithCompletion:]_block_invoke
-___copy_helper_block_e4_20b
+___copy_helper_block_e8_32b
 _OBJC_CLASSLIST_REFERENCES_$_.6
 _OBJC_CLASSLIST_REFERENCES_$_.22
-___block_descriptor_24_e4_20bs_e47_v24?0{CLLocationCoordinate2D=dd}4"NSString"20l
+___block_descriptor_40_e8_32bs_e47_v32?0{CLLocationCoordinate2D=dd}8"NSString"24l
 __OBJC_$_CLASS_METHODS_SMTAPIManager
 __OBJC_METACLASS_RO_$_SMTAPIManager
 __OBJC_CLASS_RO_$_SMTAPIManager
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/APIManager/SMTAPIManager.m
-__copy_helper_block_e4_20b
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/APIManager/SMTAPIManager.m
+__copy_helper_block_e8_32b
 __47+[SMTAPIManager getGeofenceListWithCompletion:]_block_invoke
 Smartech/NetworkLayer/APIManager/SMTAPIManager.m
 +[SMTInitializeParser parseInitializedSDKDictionary:]
@@ -1173,7 +1171,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.158
 __OBJC_$_CLASS_METHODS_SMTInitializeParser
 __OBJC_METACLASS_RO_$_SMTInitializeParser
 __OBJC_CLASS_RO_$_SMTInitializeParser
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Parser/SMTInitializeParser.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Parser/SMTInitializeParser.m
 Smartech/NetworkLayer/Parser/SMTInitializeParser.m
 -[SMTMediaOperation initWithURLString:andCompletion:]
 -[SMTMediaOperation handleSuccess:]
@@ -1186,7 +1184,7 @@ ___26-[SMTMediaOperation start]_block_invoke.22
 -[SMTMediaOperation URLString]
 -[SMTMediaOperation setURLString:]
 -[SMTMediaOperation .cxx_destruct]
-___block_descriptor_24_e4_20s_e14_v8?0"NSURL"4l
+___block_descriptor_40_e8_32s_e15_v16?0"NSURL"8l
 _OBJC_IVAR_$_SMTMediaOperation._completion
 _OBJC_IVAR_$_SMTMediaOperation._URLString
 __OBJC_METACLASS_RO_$_SMTMediaOperation
@@ -1194,7 +1192,7 @@ __OBJC_$_INSTANCE_METHODS_SMTMediaOperation
 __OBJC_$_INSTANCE_VARIABLES_SMTMediaOperation
 __OBJC_$_PROP_LIST_SMTMediaOperation
 __OBJC_CLASS_RO_$_SMTMediaOperation
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Operations/SMTMediaOperation.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Operations/SMTMediaOperation.m
 Smartech/NetworkLayer/Operations/SMTMediaOperation.m
 __26-[SMTMediaOperation start]_block_invoke.22
 __26-[SMTMediaOperation start]_block_invoke
@@ -1220,13 +1218,13 @@ ___49-[SmartechHandler handleBatchProcessingAtLaunch:]_block_invoke
 -[SmartechHandler setOpenOperationArray:]
 -[SmartechHandler .cxx_destruct]
 _OBJC_CLASSLIST_REFERENCES_$_.25
-___block_descriptor_24_e4_20s_e31_v8?0"NSManagedObjectContext"4l
+___block_descriptor_40_e8_32s_e32_v16?0"NSManagedObjectContext"8l
 _OBJC_CLASSLIST_REFERENCES_$_.37
 ___block_literal_global.51
-___block_descriptor_20_e31_v8?0"NSManagedObjectContext"4l
+___block_descriptor_32_e32_v16?0"NSManagedObjectContext"8l
 ___block_literal_global.62
 _OBJC_CLASSLIST_REFERENCES_$_.65
-___block_descriptor_28_e4_20s24s_e5_v4?0l
+___block_descriptor_48_e8_32s40s_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.107
 _OBJC_CLASSLIST_REFERENCES_$_.112
 _OBJC_CLASSLIST_REFERENCES_$_.127
@@ -1238,7 +1236,7 @@ _OBJC_IVAR_$_SmartechHandler._openOperationArray
 __OBJC_$_INSTANCE_VARIABLES_SmartechHandler
 __OBJC_$_PROP_LIST_SmartechHandler
 __OBJC_CLASS_RO_$_SmartechHandler
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/SmartechUtility/SmartechHandler.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/SmartechUtility/SmartechHandler.m
 Smartech/SmartechUtility/SmartechHandler.m
 Smartech/SmartechUtility/SmartechHandler.h
 __49-[SmartechHandler handleBatchProcessingAtLaunch:]_block_invoke
@@ -1248,43 +1246,43 @@ __67-[SmartechHandler handleAppLaunchWithInitializedModel:andSettings:]_block_in
 __33+[SmartechHandler sharedInstance]_block_invoke
 +[SMTEventProcessor processEventsWithBatchSize:andCompletion:]
 ___62+[SMTEventProcessor processEventsWithBatchSize:andCompletion:]_block_invoke
-___copy_helper_block_e4_24b
-___destroy_helper_block_e4_24s
+___copy_helper_block_e8_40b
+___destroy_helper_block_e8_40s
 +[SMTEventProcessor sequentialProcessTheEventGroups:inContext:andCompletion:]
 ___77+[SMTEventProcessor sequentialProcessTheEventGroups:inContext:andCompletion:]_block_invoke
-___copy_helper_block_e4_24s28s32b36s
-___destroy_helper_block_e4_24s28s32s36s
+___copy_helper_block_e8_40s48s56b64s
+___destroy_helper_block_e8_40s48s56s64s
 +[SMTEventProcessor parallelProcessTheEventGroups:inContext:andCompletion:]
 ___75+[SMTEventProcessor parallelProcessTheEventGroups:inContext:andCompletion:]_block_invoke
 ___75+[SMTEventProcessor parallelProcessTheEventGroups:inContext:andCompletion:]_block_invoke_2
-___copy_helper_block_e4_24s
-___copy_helper_block_e4_20s28s
-___destroy_helper_block_e4_20s28s
+___copy_helper_block_e8_40s
+___copy_helper_block_e8_32s48s
+___destroy_helper_block_e8_32s48s
 ___75+[SMTEventProcessor parallelProcessTheEventGroups:inContext:andCompletion:]_block_invoke.58
 +[SMTEventProcessor forceEventProcessingOnLaunch]
 +[SMTEventProcessor processEventsBasedOnLastBatchProcessed:batchInterval:andBatchSize:]
-___block_descriptor_32_e4_24bs_e31_v8?0"NSManagedObjectContext"4l
-___block_descriptor_40_e4_24s28s32bs36s_e16_v8?0"NSError"4l
-___block_descriptor_28_e4_24s_e16_v8?0"NSError"4l
-___block_descriptor_32_e4_20s28s_e5_v4?0l
-___block_descriptor_24_e4_20bs_e5_v4?0l
+___block_descriptor_56_e8_40bs_e32_v16?0"NSManagedObjectContext"8l
+___block_descriptor_72_e8_40s48s56bs64s_e17_v16?0"NSError"8l
+___block_descriptor_48_e8_40s_e17_v16?0"NSError"8l
+___block_descriptor_56_e8_32s48s_e5_v8?0l
+___block_descriptor_40_e8_32bs_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.67
 __OBJC_$_CLASS_METHODS_SMTEventProcessor
 __OBJC_METACLASS_RO_$_SMTEventProcessor
 __OBJC_CLASS_RO_$_SMTEventProcessor
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/EventsTracking/EventProcessor/SMTEventProcessor.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/EventsTracking/EventProcessor/SMTEventProcessor.m
 Smartech/EventsTracking/EventProcessor/SMTEventProcessor.m
 __75+[SMTEventProcessor parallelProcessTheEventGroups:inContext:andCompletion:]_block_invoke.58
-__destroy_helper_block_e4_20s28s
-__copy_helper_block_e4_20s28s
-__copy_helper_block_e4_24s
+__destroy_helper_block_e8_32s48s
+__copy_helper_block_e8_32s48s
+__copy_helper_block_e8_40s
 __75+[SMTEventProcessor parallelProcessTheEventGroups:inContext:andCompletion:]_block_invoke_2
 __75+[SMTEventProcessor parallelProcessTheEventGroups:inContext:andCompletion:]_block_invoke
-__destroy_helper_block_e4_24s28s32s36s
-__copy_helper_block_e4_24s28s32b36s
+__destroy_helper_block_e8_40s48s56s64s
+__copy_helper_block_e8_40s48s56b64s
 __77+[SMTEventProcessor sequentialProcessTheEventGroups:inContext:andCompletion:]_block_invoke
-__destroy_helper_block_e4_24s
-__copy_helper_block_e4_24b
+__destroy_helper_block_e8_40s
+__copy_helper_block_e8_40b
 __62+[SMTEventProcessor processEventsWithBatchSize:andCompletion:]_block_invoke
 -[SMTNotificationCategoryOperation initWithCategories:info:andCompletion:]
 -[SMTNotificationCategoryOperation handleSuccess:]
@@ -1304,7 +1302,7 @@ __OBJC_$_INSTANCE_METHODS_SMTNotificationCategoryOperation
 __OBJC_$_INSTANCE_VARIABLES_SMTNotificationCategoryOperation
 __OBJC_$_PROP_LIST_SMTNotificationCategoryOperation
 __OBJC_CLASS_RO_$_SMTNotificationCategoryOperation
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Operations/SMTNotificationCategoryOperation.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Operations/SMTNotificationCategoryOperation.m
 Smartech/NetworkLayer/Operations/SMTNotificationCategoryOperation.m
 __41-[SMTNotificationCategoryOperation start]_block_invoke.25
 __41-[SMTNotificationCategoryOperation start]_block_invoke
@@ -1326,7 +1324,7 @@ __OBJC_$_INSTANCE_METHODS_SMTGeofenceOperation
 __OBJC_$_INSTANCE_VARIABLES_SMTGeofenceOperation
 __OBJC_$_PROP_LIST_SMTGeofenceOperation
 __OBJC_CLASS_RO_$_SMTGeofenceOperation
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Operations/SMTGeofenceOperation.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Operations/SMTGeofenceOperation.m
 Smartech/NetworkLayer/Operations/SMTGeofenceOperation.m
 __29-[SMTGeofenceOperation start]_block_invoke.27
 __29-[SMTGeofenceOperation start]_block_invoke
@@ -1362,13 +1360,13 @@ _OBJC_IVAR_$_SMTConfig._sdkVersion
 __OBJC_$_INSTANCE_VARIABLES_SMTConfig
 __OBJC_$_PROP_LIST_SMTConfig
 __OBJC_CLASS_RO_$_SMTConfig
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/Config/SMTConfig.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/Config/SMTConfig.m
 Smartech/Utility/Config/SMTConfig.m
 Smartech/Utility/Config/SMTConfig.h
 __OBJC_METACLASS_RO_$_SMTTrackingEvent
 __OBJC_$_PROP_LIST_SMTTrackingEvent
 __OBJC_CLASS_RO_$_SMTTrackingEvent
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/DBLayer/Entities/SMTTrackingEvent.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/DBLayer/Entities/SMTTrackingEvent.m
 -[SMTAppInfo initWithConfig:]
 -[SMTAppInfo getAppVersion]
 -[SMTAppInfo getAppBuild]
@@ -1398,7 +1396,7 @@ _OBJC_IVAR_$_SMTAppInfo._language
 __OBJC_$_INSTANCE_VARIABLES_SMTAppInfo
 __OBJC_$_PROP_LIST_SMTAppInfo
 __OBJC_CLASS_RO_$_SMTAppInfo
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/Info/SMTAppInfo.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/Info/SMTAppInfo.m
 Smartech/Utility/Info/SMTAppInfo.m
 Smartech/Utility/Info/SMTAppInfo.h
 -[SMTInitializeModel smartechSettings]
@@ -1625,7 +1623,7 @@ _OBJC_IVAR_$_SMTFrequencySettings._perDayLimit
 __OBJC_$_INSTANCE_VARIABLES_SMTFrequencySettings
 __OBJC_$_PROP_LIST_SMTFrequencySettings
 __OBJC_CLASS_RO_$_SMTFrequencySettings
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Models/SMTInitializeModel.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Models/SMTInitializeModel.m
 Smartech/NetworkLayer/Models/SMTInitializeModel.h
 Smartech/NetworkLayer/Models/SMTInitializeModel.m
 +[SMTGeoFencePersistenceService insertOrUpdateGeoFencesForGroup:withFirstTimeInsert:andContext:]
@@ -1649,7 +1647,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.124
 __OBJC_$_CLASS_METHODS_SMTGeoFencePersistenceService
 __OBJC_METACLASS_RO_$_SMTGeoFencePersistenceService
 __OBJC_CLASS_RO_$_SMTGeoFencePersistenceService
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/DBLayer/Services/SMTGeoFencePersistenceService.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/DBLayer/Services/SMTGeoFencePersistenceService.m
 Smartech/DBLayer/Services/SMTGeoFencePersistenceService.m
 llvm.loop.mustprogress
 -[SMTEventProcessingService initWithTimeInterval:eventBatchSize:]
@@ -1671,7 +1669,7 @@ ___49-[SMTEventProcessingService dispatchToMainQueue:]_block_invoke
 -[SMTEventProcessingService inProgress]
 -[SMTEventProcessingService setInProgress:]
 -[SMTEventProcessingService .cxx_destruct]
-___block_descriptor_28_e4_20s_e5_v4?0l
+___block_descriptor_48_e8_32s_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.36
 __OBJC_METACLASS_RO_$_SMTEventProcessingService
 __OBJC_$_INSTANCE_METHODS_SMTEventProcessingService
@@ -1682,7 +1680,7 @@ _OBJC_IVAR_$_SMTEventProcessingService._eventBatchSize
 __OBJC_$_INSTANCE_VARIABLES_SMTEventProcessingService
 __OBJC_$_PROP_LIST_SMTEventProcessingService
 __OBJC_CLASS_RO_$_SMTEventProcessingService
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/EventsTracking/EventProcessor/SMTEventProcessingService.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/EventsTracking/EventProcessor/SMTEventProcessingService.m
 Smartech/EventsTracking/EventProcessor/SMTEventProcessingService.m
 __49-[SMTEventProcessingService dispatchToMainQueue:]_block_invoke
 __42-[SMTEventProcessingService processEvents]_block_invoke
@@ -1690,8 +1688,8 @@ __56-[SMTEventProcessingService startWithImmediateInterval:]_block_invoke
 __34-[SMTEventProcessingService start]_block_invoke
 +[SMTBackendConfiguration sharedInstance]
 ___41+[SMTBackendConfiguration sharedInstance]_block_invoke
-___copy_helper_block_e4_
-___destroy_helper_block_e4_
+___copy_helper_block_e8_
+___destroy_helper_block_e8_
 -[SMTBackendConfiguration init]
 -[SMTBackendConfiguration setEnvironment:]
 -[SMTBackendConfiguration setBaseAppInitURLString:]
@@ -1714,7 +1712,7 @@ ___destroy_helper_block_e4_
 -[SMTBackendConfiguration getMessageCountUrl]
 -[SMTBackendConfiguration setGetMessageCountUrl:]
 -[SMTBackendConfiguration .cxx_destruct]
-___block_descriptor_24_e4__e5_v4?0l
+___block_descriptor_40_e8__e5_v8?0l
 __OBJC_$_CLASS_METHODS_SMTBackendConfiguration
 __OBJC_METACLASS_RO_$_SMTBackendConfiguration
 __OBJC_$_INSTANCE_METHODS_SMTBackendConfiguration
@@ -1729,15 +1727,15 @@ _OBJC_IVAR_$_SMTBackendConfiguration._getMessageCountUrl
 __OBJC_$_INSTANCE_VARIABLES_SMTBackendConfiguration
 __OBJC_$_PROP_LIST_SMTBackendConfiguration
 __OBJC_CLASS_RO_$_SMTBackendConfiguration
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Backend/SMTBackendConfiguration.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Backend/SMTBackendConfiguration.m
 Smartech/NetworkLayer/Backend/SMTBackendConfiguration.m
 Smartech/NetworkLayer/Backend/SMTBackendConfiguration.h
-__destroy_helper_block_e4_
-__copy_helper_block_e4_
+__destroy_helper_block_e8_
+__copy_helper_block_e8_
 __41+[SMTBackendConfiguration sharedInstance]_block_invoke
 __OBJC_METACLASS_RO_$_SMTConstants
 __OBJC_CLASS_RO_$_SMTConstants
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/Constants/SMTConstants.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/Constants/SMTConstants.m
 -[SMTInitializeOperation initWithInfo:andCompletion:]
 -[SMTInitializeOperation handleSuccess:]
 -[SMTInitializeOperation handleFailure:]
@@ -1756,7 +1754,7 @@ __OBJC_$_INSTANCE_METHODS_SMTInitializeOperation
 __OBJC_$_INSTANCE_VARIABLES_SMTInitializeOperation
 __OBJC_$_PROP_LIST_SMTInitializeOperation
 __OBJC_CLASS_RO_$_SMTInitializeOperation
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Operations/SMTInitializeOperation.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Operations/SMTInitializeOperation.m
 Smartech/NetworkLayer/Operations/SMTInitializeOperation.m
 __31-[SMTInitializeOperation start]_block_invoke.25
 __31-[SMTInitializeOperation start]_block_invoke
@@ -1766,12 +1764,12 @@ __OBJC_CLASS_PROTOCOLS_$_SMTURLParameterEncoder
 __OBJC_METACLASS_RO_$_SMTURLParameterEncoder
 __OBJC_$_PROP_LIST_SMTURLParameterEncoder
 __OBJC_CLASS_RO_$_SMTURLParameterEncoder
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Core Network/Encoding/SMTURLParameterEncoder.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Core Network/Encoding/SMTURLParameterEncoder.m
 Smartech/NetworkLayer/Core Network/Encoding/SMTURLParameterEncoder.m
 +[SMTGeoFenceGroupPersistenceService updateGeoFenceData:withCompletetionHandler:]
 ___81+[SMTGeoFenceGroupPersistenceService updateGeoFenceData:withCompletetionHandler:]_block_invoke
-___copy_helper_block_e4_20s28s32b
-___destroy_helper_block_e4_20s28s32s
+___copy_helper_block_e8_32s48s56b
+___destroy_helper_block_e8_32s48s56s
 +[SMTGeoFenceGroupPersistenceService isGeoFenceDataEmptyWithContext:]
 +[SMTGeoFenceGroupPersistenceService insertOrUpdateGeoFenceGroups:withFirstTimeInsert:andContext:]
 +[SMTGeoFenceGroupPersistenceService updateGeoFenceGroupEntity:fromModel:]
@@ -1781,8 +1779,8 @@ ___destroy_helper_block_e4_20s28s32s
 +[SMTGeoFenceGroupPersistenceService checkIfRecordUpdated:withNewModel:]
 +[SMTGeoFenceGroupPersistenceService getGeoFencesForFilter:withCompletetionHandler:]
 ___84+[SMTGeoFenceGroupPersistenceService getGeoFencesForFilter:withCompletetionHandler:]_block_invoke
-___copy_helper_block_e4_24s28b
-___destroy_helper_block_e4_24s28s
+___copy_helper_block_e8_40s48b
+___destroy_helper_block_e8_40s48s
 +[SMTGeoFenceGroupPersistenceService getGeoFenceGroupIdsFromObjects:]
 +[SMTGeoFenceGroupPersistenceService getActiveGeoFenceGroupWithContext:]
 +[SMTGeoFenceGroupPersistenceService deleteGeofenceGroupForGroupId:andContext:]
@@ -1795,27 +1793,27 @@ ___74+[SMTGeoFenceGroupPersistenceService clearAllDataWithCompletetionHandler:]_
 +[SMTGeoFenceGroupPersistenceService deactivateGeofenceGroups:WithContext:]
 +[SMTGeoFenceGroupPersistenceService deactivateGeofences:WithContext:]
 +[SMTGeoFenceGroupPersistenceService getInActiveGeoFenceGroupWithContext:]
-___block_descriptor_36_e4_20s28s32bs_e31_v8?0"NSManagedObjectContext"4l
+___block_descriptor_64_e8_32s48s56bs_e32_v16?0"NSManagedObjectContext"8l
 _OBJC_CLASSLIST_REFERENCES_$_.38
 _OBJC_CLASSLIST_REFERENCES_$_.64
 _OBJC_CLASSLIST_REFERENCES_$_.83
 _OBJC_CLASSLIST_REFERENCES_$_.106
-___block_descriptor_32_e4_24s28bs_e31_v8?0"NSManagedObjectContext"4l
+___block_descriptor_56_e8_40s48bs_e32_v16?0"NSManagedObjectContext"8l
 _OBJC_CLASSLIST_REFERENCES_$_.130
 _OBJC_CLASSLIST_REFERENCES_$_.137
-___block_descriptor_28_e4_24bs_e31_v8?0"NSManagedObjectContext"4l
+___block_descriptor_48_e8_40bs_e32_v16?0"NSManagedObjectContext"8l
 _OBJC_CLASSLIST_REFERENCES_$_.161
 __OBJC_$_CLASS_METHODS_SMTGeoFenceGroupPersistenceService
 __OBJC_METACLASS_RO_$_SMTGeoFenceGroupPersistenceService
 __OBJC_CLASS_RO_$_SMTGeoFenceGroupPersistenceService
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/DBLayer/Services/SMTGeoFenceGroupPersistenceService.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/DBLayer/Services/SMTGeoFenceGroupPersistenceService.m
 Smartech/DBLayer/Services/SMTGeoFenceGroupPersistenceService.m
 __74+[SMTGeoFenceGroupPersistenceService clearAllDataWithCompletetionHandler:]_block_invoke
-__destroy_helper_block_e4_24s28s
-__copy_helper_block_e4_24s28b
+__destroy_helper_block_e8_40s48s
+__copy_helper_block_e8_40s48b
 __84+[SMTGeoFenceGroupPersistenceService getGeoFencesForFilter:withCompletetionHandler:]_block_invoke
-__destroy_helper_block_e4_20s28s32s
-__copy_helper_block_e4_20s28s32b
+__destroy_helper_block_e8_32s48s56s
+__copy_helper_block_e8_32s48s56b
 __81+[SMTGeoFenceGroupPersistenceService updateGeoFenceData:withCompletetionHandler:]_block_invoke
 -[SMTInAppRuleModel initWithCoder:]
 -[SMTInAppRuleModel encodeWithCoder:]
@@ -2057,7 +2055,7 @@ _OBJC_IVAR_$_SMTWhatTo._deeplink
 __OBJC_$_INSTANCE_VARIABLES_SMTWhatTo
 __OBJC_$_PROP_LIST_SMTWhatTo
 __OBJC_CLASS_RO_$_SMTWhatTo
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Models/SMTInAppRuleModel.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Models/SMTInAppRuleModel.m
 Smartech/NetworkLayer/Models/SMTInAppRuleModel.m
 Smartech/NetworkLayer/Models/SMTInAppRuleModel.h
 -[SMTListAndSegmentRequest initWithUserIdentity:]
@@ -2075,7 +2073,7 @@ __OBJC_$_INSTANCE_METHODS_SMTListAndSegmentRequest
 __OBJC_$_INSTANCE_VARIABLES_SMTListAndSegmentRequest
 __OBJC_$_PROP_LIST_SMTListAndSegmentRequest
 __OBJC_CLASS_RO_$_SMTListAndSegmentRequest
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Requests/SMTListAndSegmentRequest.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Requests/SMTListAndSegmentRequest.m
 Smartech/NetworkLayer/Requests/SMTListAndSegmentRequest.m
 +[Smartech sharedInstance]
 ___26+[Smartech sharedInstance]_block_invoke
@@ -2145,8 +2143,8 @@ ___46-[Smartech initialiseAppInboxSDK:andSettings:]_block_invoke
 -[Smartech setPlistAppInfoDictionary:]
 -[Smartech setSmartechHandler:]
 -[Smartech .cxx_destruct]
-___block_descriptor_28_e4_20s24s_e16_v8?0"NSError"4l
-___block_descriptor_20_e7_v8?0c4l
+___block_descriptor_48_e8_32s40s_e17_v16?0"NSError"8l
+___block_descriptor_32_e8_v12?0B8l
 ___block_literal_global.139
 _OBJC_CLASSLIST_REFERENCES_$_.140
 _OBJC_CLASSLIST_REFERENCES_$_.147
@@ -2162,7 +2160,7 @@ _OBJC_SELECTOR_REFERENCES_.226
 _OBJC_SELECTOR_REFERENCES_.228
 _OBJC_SELECTOR_REFERENCES_.230
 _OBJC_SELECTOR_REFERENCES_.232
-___block_descriptor_28_e4_20s24s_e30_v16?0"NSURLQueryItem"4I8^c12l
+___block_descriptor_48_e8_32s40s_e31_v32?0"NSURLQueryItem"8Q16^B24l
 _OBJC_SELECTOR_REFERENCES_.239
 _OBJC_SELECTOR_REFERENCES_.241
 _OBJC_SELECTOR_REFERENCES_.245
@@ -2197,7 +2195,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.301
 _OBJC_SELECTOR_REFERENCES_.303
 _OBJC_SELECTOR_REFERENCES_.305
 _OBJC_SELECTOR_REFERENCES_.307
-___block_descriptor_24_e4_20s_e39_v12?0"SMTInitializeModel"4"NSError"8l
+___block_descriptor_40_e8_32s_e40_v24?0"SMTInitializeModel"8"NSError"16l
 _OBJC_SELECTOR_REFERENCES_.332
 _OBJC_SELECTOR_REFERENCES_.334
 _OBJC_CLASSLIST_REFERENCES_$_.341
@@ -2214,7 +2212,7 @@ _OBJC_SELECTOR_REFERENCES_.361
 _OBJC_SELECTOR_REFERENCES_.363
 _OBJC_SELECTOR_REFERENCES_.365
 _OBJC_CLASSLIST_REFERENCES_$_.366
-___block_descriptor_20_e19_v12?0c4"NSError"8l
+___block_descriptor_32_e20_v20?0B8"NSError"12l
 ___block_literal_global.368
 _OBJC_SELECTOR_REFERENCES_.370
 _OBJC_CLASSLIST_REFERENCES_$_.371
@@ -2231,7 +2229,7 @@ _OBJC_IVAR_$_Smartech._smartechHandler
 __OBJC_$_INSTANCE_VARIABLES_Smartech
 __OBJC_$_PROP_LIST_Smartech
 __OBJC_CLASS_RO_$_Smartech
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Smartech.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Smartech.m
 Smartech/Smartech.m
 Smartech/Smartech.h
 __46-[Smartech initialiseAppInboxSDK:andSettings:]_block_invoke
@@ -2251,8 +2249,8 @@ __26+[Smartech sharedInstance]_block_invoke
 +[SMTInAppRuleEvaluator evaluateWhereTo:withPayload:]
 +[SMTInAppRuleEvaluator evaluateWhomTo:forRuleEvent:withPayload:]
 ___65+[SMTInAppRuleEvaluator evaluateWhomTo:forRuleEvent:withPayload:]_block_invoke
-___copy_helper_block_e4_20s28s32s36r40r44r
-___destroy_helper_block_e4_20s28s32s36r40r44r
+___copy_helper_block_e8_32s48s56s64r72r80r
+___destroy_helper_block_e8_32s48s56s64r72r80r
 +[SMTInAppRuleEvaluator evaluateFilters:withFilterType:withPayload:]
 +[SMTInAppRuleEvaluator applyNestedFilterWithOperation:operator:filterValue:keys:withPayload:]
 +[SMTInAppRuleEvaluator applyFilterWithOperation:operator:filterValue:withValue:]
@@ -2268,57 +2266,57 @@ ___85+[SMTInAppRuleEvaluator executeInAppRuleAfter:forRule:forRuleEvent:withEven
 ___85+[SMTInAppRuleEvaluator executeInAppRuleAfter:forRule:forRuleEvent:withEventPayload:]_block_invoke_2
 ___85+[SMTInAppRuleEvaluator executeInAppRuleAfter:forRule:forRuleEvent:withEventPayload:]_block_invoke_3
 ___85+[SMTInAppRuleEvaluator executeInAppRuleAfter:forRule:forRuleEvent:withEventPayload:]_block_invoke_4
-___copy_helper_block_e4_24s28s32s36r
-___destroy_helper_block_e4_24s28s32s36r
+___copy_helper_block_e8_40s48s56s64r
+___destroy_helper_block_e8_40s48s56s64r
 ___85+[SMTInAppRuleEvaluator executeInAppRuleAfter:forRule:forRuleEvent:withEventPayload:]_block_invoke.256
-___copy_helper_block_e4_20s24s28s36r
-___destroy_helper_block_e4_20s24s28s36r
-___copy_helper_block_e4_24s28s
+___copy_helper_block_e8_32s40s48s64r
+___destroy_helper_block_e8_32s40s48s64r
+___copy_helper_block_e8_40s48s
 +[SMTInAppRuleEvaluator performOperation:forRule:completion:]
 ___61+[SMTInAppRuleEvaluator performOperation:forRule:completion:]_block_invoke
-___copy_helper_block_e4_20b24s
+___copy_helper_block_e8_32b40s
 _OBJC_CLASSLIST_REFERENCES_$_.33
 _OBJC_CLASSLIST_REFERENCES_$_.77
 _OBJC_CLASSLIST_REFERENCES_$_.116
-___block_descriptor_48_e4_20s28s32s36r40r44r_e24_v16?0"SMTRules"4I8^c12l
+___block_descriptor_88_e8_32s48s56s64r72r80r_e25_v32?0"SMTRules"8Q16^B24l
 _OBJC_CLASSLIST_REFERENCES_$_.183
 _OBJC_SELECTOR_REFERENCES_.201
-___block_descriptor_28_e4_20s24s_e23_v16?0"SMTTime"4I8^c12l
+___block_descriptor_48_e8_32s40s_e24_v32?0"SMTTime"8Q16^B24l
 _OBJC_CLASSLIST_REFERENCES_$_.233
 _OBJC_CLASSLIST_REFERENCES_$_.234
 _OBJC_SELECTOR_REFERENCES_.236
 _OBJC_SELECTOR_REFERENCES_.238
 _OBJC_CLASSLIST_REFERENCES_$_.239
 _OBJC_SELECTOR_REFERENCES_.243
-___block_descriptor_40_e4_24s28s32s36r_e28_v16?0"NSDictionary"4I8^c12l
+___block_descriptor_72_e8_40s48s56s64r_e29_v32?0"NSDictionary"8Q16^B24l
 _OBJC_CLASSLIST_REFERENCES_$_.257
-___block_descriptor_32_e4_20s24s28r_e7_v8?0c4l
-___block_descriptor_40_e4_20s24s28s36r_e5_v4?0l
-___block_descriptor_28_e4_20s_e26_v8?0"SMTInAppEventRule"4l
+___block_descriptor_56_e8_32s40s48r_e8_v12?0B8l
+___block_descriptor_72_e8_32s40s48s64r_e5_v8?0l
+___block_descriptor_48_e8_32s_e27_v16?0"SMTInAppEventRule"8l
 _OBJC_SELECTOR_REFERENCES_.269
-___block_descriptor_36_e4_24s28s_e5_v4?0l
+___block_descriptor_64_e8_40s48s_e5_v8?0l
 _OBJC_CLASSLIST_REFERENCES_$_.273
-___block_descriptor_28_e4_20bs24s_e5_v4?0l
+___block_descriptor_48_e8_32bs40s_e5_v8?0l
 __OBJC_$_CLASS_METHODS_SMTInAppRuleEvaluator
 __OBJC_METACLASS_RO_$_SMTInAppRuleEvaluator
 __OBJC_CLASS_RO_$_SMTInAppRuleEvaluator
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/InAppMessaging/InAppUtility/SMTInAppRuleEvaluator.m
-__copy_helper_block_e4_20b24s
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/InAppMessaging/InAppUtility/SMTInAppRuleEvaluator.m
+__copy_helper_block_e8_32b40s
 __61+[SMTInAppRuleEvaluator performOperation:forRule:completion:]_block_invoke
 Smartech/InAppMessaging/InAppUtility/SMTInAppRuleEvaluator.m
-__copy_helper_block_e4_24s28s
-__destroy_helper_block_e4_20s24s28s36r
-__copy_helper_block_e4_20s24s28s36r
+__copy_helper_block_e8_40s48s
+__destroy_helper_block_e8_32s40s48s64r
+__copy_helper_block_e8_32s40s48s64r
 __85+[SMTInAppRuleEvaluator executeInAppRuleAfter:forRule:forRuleEvent:withEventPayload:]_block_invoke.256
-__destroy_helper_block_e4_24s28s32s36r
-__copy_helper_block_e4_24s28s32s36r
+__destroy_helper_block_e8_40s48s56s64r
+__copy_helper_block_e8_40s48s56s64r
 __85+[SMTInAppRuleEvaluator executeInAppRuleAfter:forRule:forRuleEvent:withEventPayload:]_block_invoke_4
 __85+[SMTInAppRuleEvaluator executeInAppRuleAfter:forRule:forRuleEvent:withEventPayload:]_block_invoke_3
 __85+[SMTInAppRuleEvaluator executeInAppRuleAfter:forRule:forRuleEvent:withEventPayload:]_block_invoke_2
 __85+[SMTInAppRuleEvaluator executeInAppRuleAfter:forRule:forRuleEvent:withEventPayload:]_block_invoke
 __49+[SMTInAppRuleEvaluator checkWhenToTime:forDate:]_block_invoke
-__destroy_helper_block_e4_20s28s32s36r40r44r
-__copy_helper_block_e4_20s28s32s36r40r44r
+__destroy_helper_block_e8_32s48s56s64r72r80r
+__copy_helper_block_e8_32s48s56s64r72r80r
 __65+[SMTInAppRuleEvaluator evaluateWhomTo:forRuleEvent:withPayload:]_block_invoke
 __inline_isnand
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/usr/include/math.h
@@ -2332,8 +2330,8 @@ ___53+[SMTEventPersistenceService deleteEvents:inContext:]_block_invoke.93
 +[SMTEventPersistenceService updateFailedStatusForEvents:inContext:]
 ___68+[SMTEventPersistenceService updateFailedStatusForEvents:inContext:]_block_invoke
 ___68+[SMTEventPersistenceService updateFailedStatusForEvents:inContext:]_block_invoke.110
-___copy_helper_block_e4_20s28r32r
-___destroy_helper_block_e4_20s28r32r
+___copy_helper_block_e8_32s48r56r
+___destroy_helper_block_e8_32s48r56r
 +[SMTEventPersistenceService updateSuccessStatusForEvents:inContext:]
 ___69+[SMTEventPersistenceService updateSuccessStatusForEvents:inContext:]_block_invoke
 ___69+[SMTEventPersistenceService updateSuccessStatusForEvents:inContext:]_block_invoke_2
@@ -2343,18 +2341,20 @@ ___83+[SMTEventPersistenceService updateSyncStatusValueForEvents:eventStatus:inC
 +[SMTEventPersistenceService deleteLatestEventsWithCounts:inContext:]
 _OBJC_CLASSLIST_REFERENCES_$_.50
 _OBJC_CLASSLIST_REFERENCES_$_.53
-___block_descriptor_36_e4_20s28r32r_e5_v4?0l
+___block_descriptor_64_e8_32s48r56r_e5_v8?0l
 __OBJC_$_CLASS_METHODS_SMTEventPersistenceService
 __OBJC_METACLASS_RO_$_SMTEventPersistenceService
 __OBJC_CLASS_RO_$_SMTEventPersistenceService
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/DBLayer/Services/SMTEventPersistenceService.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/DBLayer/Services/SMTEventPersistenceService.m
 Smartech/DBLayer/Services/SMTEventPersistenceService.m
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
 __83+[SMTEventPersistenceService updateSyncStatusValueForEvents:eventStatus:inContext:]_block_invoke.114
 __83+[SMTEventPersistenceService updateSyncStatusValueForEvents:eventStatus:inContext:]_block_invoke
 __69+[SMTEventPersistenceService updateSuccessStatusForEvents:inContext:]_block_invoke_2
 __69+[SMTEventPersistenceService updateSuccessStatusForEvents:inContext:]_block_invoke
-__destroy_helper_block_e4_20s28r32r
-__copy_helper_block_e4_20s28r32r
+__destroy_helper_block_e8_32s48r56r
+__copy_helper_block_e8_32s48r56r
 __68+[SMTEventPersistenceService updateFailedStatusForEvents:inContext:]_block_invoke.110
 __68+[SMTEventPersistenceService updateFailedStatusForEvents:inContext:]_block_invoke
 __53+[SMTEventPersistenceService deleteEvents:inContext:]_block_invoke.93
@@ -2370,7 +2370,7 @@ _OBJC_IVAR_$_SMTReachabilityHelper._smtReachability
 __OBJC_$_INSTANCE_VARIABLES_SMTReachabilityHelper
 __OBJC_$_PROP_LIST_SMTReachabilityHelper
 __OBJC_CLASS_RO_$_SMTReachabilityHelper
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/Reachability/SMTReachabilityHelper.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/Reachability/SMTReachabilityHelper.m
 Smartech/Utility/Reachability/SMTReachabilityHelper.m
 -[SMTBaseRequest initWithInfo:]
 -[SMTBaseRequest endpoint]
@@ -2465,7 +2465,7 @@ _OBJC_IVAR_$_SMTBaseRequest._sdkVersion
 __OBJC_$_INSTANCE_VARIABLES_SMTBaseRequest
 __OBJC_$_PROP_LIST_SMTBaseRequest
 __OBJC_CLASS_RO_$_SMTBaseRequest
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Requests/SMTBaseRequest.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Requests/SMTBaseRequest.m
 Smartech/NetworkLayer/Requests/SMTBaseRequest.m
 Smartech/NetworkLayer/Requests/SMTBaseRequest.h
 +[SMTAppWebViewUtility getSmartechAppWebScript:]
@@ -2480,7 +2480,7 @@ _OBJC_CLASSLIST_REFERENCES_$_.47
 __OBJC_$_CLASS_METHODS_SMTAppWebViewUtility
 __OBJC_METACLASS_RO_$_SMTAppWebViewUtility
 __OBJC_CLASS_RO_$_SMTAppWebViewUtility
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/AppWebView/SMTAppWebViewUtility.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/AppWebView/SMTAppWebViewUtility.m
 Smartech/Utility/AppWebView/SMTAppWebViewUtility.m
 +[SmartechHelper checkIfPanelAndSDKActive]
 +[SmartechHelper getDefaultSmartechSettings]
@@ -2507,10 +2507,10 @@ ___36+[SmartechHelper updateGeoFenceList]_block_invoke_2
 +[SmartechHelper clearStoredGeoFences]
 ___38+[SmartechHelper clearStoredGeoFences]_block_invoke
 +[SmartechHelper checkIfAppInboxActive]
-___block_descriptor_28_e4_24bs_e47_v24?0{CLLocationCoordinate2D=dd}4"NSString"20l
-___block_descriptor_28_e4_24bs_e40_v16?0"NSArray"4"NSArray"8"NSError"12l
-___block_descriptor_28_e4_24bs_e5_v4?0l
-___block_descriptor_20_e39_v12?0"SMTInitializeModel"4"NSError"8l
+___block_descriptor_48_e8_40bs_e47_v32?0{CLLocationCoordinate2D=dd}8"NSString"24l
+___block_descriptor_48_e8_40bs_e41_v32?0"NSArray"8"NSArray"16"NSError"24l
+___block_descriptor_48_e8_40bs_e5_v8?0l
+___block_descriptor_32_e40_v24?0"SMTInitializeModel"8"NSError"16l
 _OBJC_CLASSLIST_REFERENCES_$_.145
 _OBJC_CLASSLIST_REFERENCES_$_.160
 _OBJC_CLASSLIST_REFERENCES_$_.165
@@ -2518,14 +2518,14 @@ _OBJC_CLASSLIST_REFERENCES_$_.184
 _OBJC_CLASSLIST_REFERENCES_$_.189
 _OBJC_CLASSLIST_REFERENCES_$_.220
 _OBJC_SELECTOR_REFERENCES_.222
-___block_descriptor_24_e4__e16_v8?0"NSError"4l
-___block_descriptor_24_e4__e36_v12?0"SMTGeoFenceInfo"4"NSError"8l
-___block_descriptor_20_e16_v8?0"NSError"4l
+___block_descriptor_40_e8__e17_v16?0"NSError"8l
+___block_descriptor_40_e8__e37_v24?0"SMTGeoFenceInfo"8"NSError"16l
+___block_descriptor_32_e17_v16?0"NSError"8l
 ___block_literal_global.233
 __OBJC_$_CLASS_METHODS_SmartechHelper
 __OBJC_METACLASS_RO_$_SmartechHelper
 __OBJC_CLASS_RO_$_SmartechHelper
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/SmartechUtility/SmartechHelper.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/SmartechUtility/SmartechHelper.m
 Smartech/SmartechUtility/SmartechHelper.m
 __38+[SmartechHelper clearStoredGeoFences]_block_invoke
 __36+[SmartechHelper updateGeoFenceList]_block_invoke_2
@@ -2535,7 +2535,7 @@ __50+[SmartechHelper fetchAndStoreInitializedSettings]_block_invoke
 __68+[SmartechHelper fetchPushAmpAndScheduleNotificationWithCompletion:]_block_invoke_2
 __68+[SmartechHelper fetchPushAmpAndScheduleNotificationWithCompletion:]_block_invoke
 __65+[SmartechHelper fetchAndStoreLocationWithManager:andCompletion:]_block_invoke
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Backend/SMTHTTPMethod.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Backend/SMTHTTPMethod.m
 SMTHTTPMethodString
 Smartech/NetworkLayer/Backend/SMTHTTPMethod.m
 -[SMTGeoFenceInfo deletedGeofenceIds]
@@ -2553,7 +2553,7 @@ _OBJC_IVAR_$_SMTGeoFenceInfo._geoFenceGroupModels
 __OBJC_$_INSTANCE_VARIABLES_SMTGeoFenceInfo
 __OBJC_$_PROP_LIST_SMTGeoFenceInfo
 __OBJC_CLASS_RO_$_SMTGeoFenceInfo
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Models/GeoFence/SMTGeoFenceInfo.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Models/GeoFence/SMTGeoFenceInfo.m
 Smartech/NetworkLayer/Models/GeoFence/SMTGeoFenceInfo.m
 Smartech/NetworkLayer/Models/GeoFence/SMTGeoFenceInfo.h
 +[SMTPayloadConverter convertDictionaryKeys:withKeysCaseType:]
@@ -2562,12 +2562,12 @@ ___64+[SMTPayloadConverter dictionaryFromDictionary:withKeyCaseType:]_block_invo
 ___64+[SMTPayloadConverter dictionaryFromDictionary:withKeyCaseType:]_block_invoke_2
 +[SMTPayloadConverter arrayFromDictionary:withKeyCaseType:]
 ___59+[SMTPayloadConverter arrayFromDictionary:withKeyCaseType:]_block_invoke
-___block_descriptor_32_e4_20s_e14_v16?04I8^c12l
-___block_descriptor_32_e4_24s_e14_v16?048^c12l
+___block_descriptor_56_e8_32s_e15_v32?08Q16^B24l
+___block_descriptor_56_e8_40s_e15_v32?0816^B24l
 __OBJC_$_CLASS_METHODS_SMTPayloadConverter
 __OBJC_METACLASS_RO_$_SMTPayloadConverter
 __OBJC_CLASS_RO_$_SMTPayloadConverter
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/PayloadConverter/SMTPayloadConverter.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/PayloadConverter/SMTPayloadConverter.m
 __59+[SMTPayloadConverter arrayFromDictionary:withKeyCaseType:]_block_invoke
 Smartech/Utility/PayloadConverter/SMTPayloadConverter.m
 __64+[SMTPayloadConverter dictionaryFromDictionary:withKeyCaseType:]_block_invoke_2
@@ -2576,7 +2576,7 @@ __64+[SMTPayloadConverter dictionaryFromDictionary:withKeyCaseType:]_block_invok
 __OBJC_$_CLASS_METHODS_SMTEncryption
 __OBJC_METACLASS_RO_$_SMTEncryption
 __OBJC_CLASS_RO_$_SMTEncryption
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/Encryption/SMTEncryption.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/Encryption/SMTEncryption.m
 Smartech/Utility/Encryption/SMTEncryption.m
 +[SMTLocationManager sharedInstance]
 ___36+[SMTLocationManager sharedInstance]_block_invoke
@@ -2623,7 +2623,7 @@ _OBJC_IVAR_$_SMTLocationManager._completion
 __OBJC_$_INSTANCE_VARIABLES_SMTLocationManager
 __OBJC_$_PROP_LIST_SMTLocationManager
 __OBJC_CLASS_RO_$_SMTLocationManager
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/LocationManager/SMTLocationManager.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/LocationManager/SMTLocationManager.m
 Smartech/Utility/LocationManager/SMTLocationManager.m
 Smartech/Utility/LocationManager/SMTLocationManager.h
 __36+[SMTLocationManager sharedInstance]_block_invoke
@@ -2661,13 +2661,13 @@ _OBJC_IVAR_$_SMTGeoFenceGroupModel._groupId
 __OBJC_$_INSTANCE_VARIABLES_SMTGeoFenceGroupModel
 __OBJC_$_PROP_LIST_SMTGeoFenceGroupModel
 __OBJC_CLASS_RO_$_SMTGeoFenceGroupModel
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Models/GeoFence/SMTGeoFenceGroupModel.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Models/GeoFence/SMTGeoFenceGroupModel.m
 Smartech/NetworkLayer/Models/GeoFence/SMTGeoFenceGroupModel.m
 Smartech/NetworkLayer/Models/GeoFence/SMTGeoFenceGroupModel.h
 -[SMTNetworkService init]
 -[SMTNetworkService makeDataRequestFor:method:URLParams:bodyParams:headers:success:failure:]
 ___92-[SMTNetworkService makeDataRequestFor:method:URLParams:bodyParams:headers:success:failure:]_block_invoke
-___copy_helper_block_e4_20s24b28b
+___copy_helper_block_e8_32s40b48b
 -[SMTNetworkService makeDownloadRequestFor:success:failure:]
 ___60-[SMTNetworkService makeDownloadRequestFor:success:failure:]_block_invoke
 -[SMTNetworkService cancel]
@@ -2678,8 +2678,8 @@ ___60-[SMTNetworkService makeDownloadRequestFor:success:failure:]_block_invoke
 -[SMTNetworkService downloadTask]
 -[SMTNetworkService setDownloadTask:]
 -[SMTNetworkService .cxx_destruct]
-___block_descriptor_32_e4_20s24bs28bs_e45_v16?0"NSData"4"NSURLResponse"8"NSError"12l
-___block_descriptor_32_e4_20s24bs28bs_e44_v16?0"NSURL"4"NSURLResponse"8"NSError"12l
+___block_descriptor_56_e8_32s40bs48bs_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24l
+___block_descriptor_56_e8_32s40bs48bs_e45_v32?0"NSURL"8"NSURLResponse"16"NSError"24l
 __OBJC_METACLASS_RO_$_SMTNetworkService
 __OBJC_$_INSTANCE_METHODS_SMTNetworkService
 _OBJC_IVAR_$_SMTNetworkService._dataTask
@@ -2687,10 +2687,10 @@ _OBJC_IVAR_$_SMTNetworkService._downloadTask
 __OBJC_$_INSTANCE_VARIABLES_SMTNetworkService
 __OBJC_$_PROP_LIST_SMTNetworkService
 __OBJC_CLASS_RO_$_SMTNetworkService
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Core Network/SMTNetworkService.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Core Network/SMTNetworkService.m
 Smartech/NetworkLayer/Core Network/SMTNetworkService.m
 __60-[SMTNetworkService makeDownloadRequestFor:success:failure:]_block_invoke
-__copy_helper_block_e4_20s24b28b
+__copy_helper_block_e8_32s40b48b
 __92-[SMTNetworkService makeDataRequestFor:method:URLParams:bodyParams:headers:success:failure:]_block_invoke
 +[SmartechAdapter sharedInstance]
 ___33+[SmartechAdapter sharedInstance]_block_invoke
@@ -2724,7 +2724,7 @@ __OBJC_CLASS_PROTOCOLS_$_SmartechAdapter
 __OBJC_METACLASS_RO_$_SmartechAdapter
 __OBJC_$_INSTANCE_METHODS_SmartechAdapter
 __OBJC_CLASS_RO_$_SmartechAdapter
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/HanselUtility/SmartechAdapter.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/HanselUtility/SmartechAdapter.m
 Smartech/HanselUtility/SmartechAdapter.m
 __33+[SmartechAdapter sharedInstance]_block_invoke
 -[SMTNetworkInfo init]
@@ -2753,14 +2753,14 @@ _OBJC_IVAR_$_SMTNetworkInfo._internetReachability
 __OBJC_$_INSTANCE_VARIABLES_SMTNetworkInfo
 __OBJC_$_PROP_LIST_SMTNetworkInfo
 __OBJC_CLASS_RO_$_SMTNetworkInfo
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/Info/SMTNetworkInfo.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/Info/SMTNetworkInfo.m
 Smartech/Utility/Info/SMTNetworkInfo.m
 Smartech/Utility/Info/SMTNetworkInfo.h
 +[SMTJsonHelper convertJsonStringToDictionary:]
 __OBJC_$_CLASS_METHODS_SMTJsonHelper
 __OBJC_METACLASS_RO_$_SMTJsonHelper
 __OBJC_CLASS_RO_$_SMTJsonHelper
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/Json/SMTJsonHelper.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/Json/SMTJsonHelper.m
 Smartech/Utility/Json/SMTJsonHelper.m
 -[SMTPushAmpRequest initWithUserIdentity:andInfo:]
 -[SMTPushAmpRequest baseURLType]
@@ -2780,7 +2780,7 @@ __OBJC_$_INSTANCE_METHODS_SMTPushAmpRequest
 __OBJC_$_INSTANCE_VARIABLES_SMTPushAmpRequest
 __OBJC_$_PROP_LIST_SMTPushAmpRequest
 __OBJC_CLASS_RO_$_SMTPushAmpRequest
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Requests/SMTPushAmpRequest.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Requests/SMTPushAmpRequest.m
 Smartech/NetworkLayer/Requests/SMTPushAmpRequest.m
 +[SMTInfo sharedInstance]
 ___25+[SMTInfo sharedInstance]_block_invoke
@@ -2801,7 +2801,7 @@ _OBJC_IVAR_$_SMTInfo._networkInfo
 __OBJC_$_INSTANCE_VARIABLES_SMTInfo
 __OBJC_$_PROP_LIST_SMTInfo
 __OBJC_CLASS_RO_$_SMTInfo
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/Info/SMTInfo.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/Info/SMTInfo.m
 Smartech/Utility/Info/SMTInfo.m
 Smartech/Utility/Info/SMTInfo.h
 __25+[SMTInfo sharedInstance]_block_invoke
@@ -2824,7 +2824,7 @@ _OBJC_IVAR_$_SMTAppInboxSettings._mediaCachingSize
 __OBJC_$_INSTANCE_VARIABLES_SMTAppInboxSettings
 __OBJC_$_PROP_LIST_SMTAppInboxSettings
 __OBJC_CLASS_RO_$_SMTAppInboxSettings
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Models/SMTAppInboxSettings.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Models/SMTAppInboxSettings.m
 Smartech/NetworkLayer/Models/SMTAppInboxSettings.h
 Smartech/NetworkLayer/Models/SMTAppInboxSettings.m
 +[SMTEventRecorder recordEventWithId:eventType:]
@@ -2841,15 +2841,15 @@ ___53+[SMTEventRecorder recordInAppEventWithId:eventType:]_block_invoke
 +[SMTEventRecorder recordEventWithName:eventType:payload:inContext:]
 +[SMTEventRecorder checkInAppMessageWithEventId:eventName:eventType:payload:]
 +[SMTEventRecorder shouldProcessEvent:]
-___block_descriptor_32_e4__e31_v8?0"NSManagedObjectContext"4l
-___block_descriptor_36_e4_24s_e31_v8?0"NSManagedObjectContext"4l
-___block_descriptor_36_e4_24s28s_e31_v8?0"NSManagedObjectContext"4l
-___block_descriptor_32_e4_20s_e31_v8?0"NSManagedObjectContext"4l
+___block_descriptor_56_e8__e32_v16?0"NSManagedObjectContext"8l
+___block_descriptor_64_e8_40s_e32_v16?0"NSManagedObjectContext"8l
+___block_descriptor_64_e8_40s48s_e32_v16?0"NSManagedObjectContext"8l
+___block_descriptor_56_e8_32s_e32_v16?0"NSManagedObjectContext"8l
 _OBJC_CLASSLIST_REFERENCES_$_.34
 __OBJC_$_CLASS_METHODS_SMTEventRecorder
 __OBJC_METACLASS_RO_$_SMTEventRecorder
 __OBJC_CLASS_RO_$_SMTEventRecorder
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/EventsTracking/EventRecorder/SMTEventRecorder.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/EventsTracking/EventRecorder/SMTEventRecorder.m
 Smartech/EventsTracking/EventRecorder/SMTEventRecorder.m
 __53+[SMTEventRecorder recordInAppEventWithId:eventType:]_block_invoke
 __44+[SMTEventRecorder recordEvents:eventsType:]_block_invoke
@@ -2870,12 +2870,12 @@ _OBJC_IVAR_$_SMTKeychainItemWrapper.keychainItemData
 _OBJC_IVAR_$_SMTKeychainItemWrapper.genericPasswordQuery
 __OBJC_$_INSTANCE_VARIABLES_SMTKeychainItemWrapper
 __OBJC_CLASS_RO_$_SMTKeychainItemWrapper
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/KeyChainStorage/SMTKeychainItemWrapper.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/KeyChainStorage/SMTKeychainItemWrapper.m
 Smartech/Utility/KeyChainStorage/SMTKeychainItemWrapper.m
 __OBJC_METACLASS_RO_$_SMTGeoFence
 __OBJC_$_PROP_LIST_SMTGeoFence
 __OBJC_CLASS_RO_$_SMTGeoFence
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/DBLayer/Entities/SMTGeoFence.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/DBLayer/Entities/SMTGeoFence.m
 -[SMTNotificationCategoryRequest initWithCategories:andInfo:]
 -[SMTNotificationCategoryRequest baseURLType]
 -[SMTNotificationCategoryRequest endpoint]
@@ -2890,7 +2890,7 @@ __OBJC_$_INSTANCE_METHODS_SMTNotificationCategoryRequest
 __OBJC_$_INSTANCE_VARIABLES_SMTNotificationCategoryRequest
 __OBJC_$_PROP_LIST_SMTNotificationCategoryRequest
 __OBJC_CLASS_RO_$_SMTNotificationCategoryRequest
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Requests/SMTNotificationCategoryRequest.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Requests/SMTNotificationCategoryRequest.m
 Smartech/NetworkLayer/Requests/SMTNotificationCategoryRequest.m
 -[SMTListAndSegmentOperation initWithUserIdentity:andCompletion:]
 -[SMTListAndSegmentOperation handleSuccess:]
@@ -2911,7 +2911,7 @@ __OBJC_$_INSTANCE_METHODS_SMTListAndSegmentOperation
 __OBJC_$_INSTANCE_VARIABLES_SMTListAndSegmentOperation
 __OBJC_$_PROP_LIST_SMTListAndSegmentOperation
 __OBJC_CLASS_RO_$_SMTListAndSegmentOperation
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Operations/SMTListAndSegmentOperation.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Operations/SMTListAndSegmentOperation.m
 Smartech/NetworkLayer/Operations/SMTListAndSegmentOperation.m
 __35-[SMTListAndSegmentOperation start]_block_invoke.34
 __35-[SMTListAndSegmentOperation start]_block_invoke
@@ -2920,7 +2920,7 @@ __35-[SMTListAndSegmentOperation start]_block_invoke
 __OBJC_$_CLASS_METHODS_SMTAErrorUtility
 __OBJC_METACLASS_RO_$_SMTAErrorUtility
 __OBJC_CLASS_RO_$_SMTAErrorUtility
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/ErrorHandler/SMTAErrorUtility.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/ErrorHandler/SMTAErrorUtility.m
 Smartech/Utility/ErrorHandler/SMTAErrorUtility.m
 -[SMTDeviceInfo initWithConfig:]
 -[SMTDeviceInfo getOSName]
@@ -3012,7 +3012,7 @@ _OBJC_IVAR_$_SMTDeviceInfo._appGroup
 __OBJC_$_INSTANCE_VARIABLES_SMTDeviceInfo
 __OBJC_$_PROP_LIST_SMTDeviceInfo
 __OBJC_CLASS_RO_$_SMTDeviceInfo
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/Info/SMTDeviceInfo.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/Info/SMTDeviceInfo.m
 Smartech/Utility/Info/SMTDeviceInfo.m
 Smartech/Utility/Info/SMTDeviceInfo.h
 -[SMTGeoFenceManager initWithLocationManager:]
@@ -3060,7 +3060,7 @@ ___53-[SMTGeoFenceManager handleSystemGeoFenceExitEvents:]_block_invoke_2
 -[SMTGeoFenceManager locationManager]
 -[SMTGeoFenceManager setLocationManager:]
 -[SMTGeoFenceManager .cxx_destruct]
-___block_descriptor_28_e4_20s24s_e28_v12?0"NSArray"4"NSError"8l
+___block_descriptor_48_e8_32s40s_e29_v24?0"NSArray"8"NSError"16l
 _OBJC_CLASSLIST_REFERENCES_$_.120
 _OBJC_CLASSLIST_REFERENCES_$_.131
 _OBJC_CLASSLIST_REFERENCES_$_.181
@@ -3069,7 +3069,7 @@ _OBJC_SELECTOR_REFERENCES_.184
 _OBJC_CLASSLIST_REFERENCES_$_.193
 _OBJC_SELECTOR_REFERENCES_.203
 _OBJC_CLASSLIST_REFERENCES_$_.204
-___block_descriptor_24_e4_20s_e47_v24?0{CLLocationCoordinate2D=dd}4"NSString"20l
+___block_descriptor_40_e8_32s_e47_v32?0{CLLocationCoordinate2D=dd}8"NSString"24l
 _OBJC_SELECTOR_REFERENCES_.218
 _OBJC_SELECTOR_REFERENCES_.220
 _OBJC_SELECTOR_REFERENCES_.224
@@ -3083,7 +3083,7 @@ _OBJC_IVAR_$_SMTGeoFenceManager._locationManager
 __OBJC_$_INSTANCE_VARIABLES_SMTGeoFenceManager
 __OBJC_$_PROP_LIST_SMTGeoFenceManager
 __OBJC_CLASS_RO_$_SMTGeoFenceManager
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/GeoFence/SMTGeoFenceManager.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/GeoFence/SMTGeoFenceManager.m
 Smartech/GeoFence/SMTGeoFenceManager.m
 __53-[SMTGeoFenceManager handleSystemGeoFenceExitEvents:]_block_invoke_2
 __53-[SMTGeoFenceManager handleSystemGeoFenceExitEvents:]_block_invoke
@@ -3103,13 +3103,13 @@ __54-[SMTGeoFenceManager registerGeoFenceForUserLocation:]_block_invoke
 __OBJC_$_CLASS_METHODS_SMTDateUtility
 __OBJC_METACLASS_RO_$_SMTDateUtility
 __OBJC_CLASS_RO_$_SMTDateUtility
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/DateUtility/SMTDateUtility.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/DateUtility/SMTDateUtility.m
 Smartech/Utility/DateUtility/SMTDateUtility.m
 -[SMTBackendService initWithConfig:]
 -[SMTBackendService getBaseURL:]
 -[SMTBackendService makeDataRequest:success:failure:]
 ___53-[SMTBackendService makeDataRequest:success:failure:]_block_invoke
-___copy_helper_block_e4_20s24b
+___copy_helper_block_e8_32s40b
 ___53-[SMTBackendService makeDataRequest:success:failure:]_block_invoke.53
 -[SMTBackendService makeDownloadRequestFor:success:failure:]
 ___60-[SMTBackendService makeDownloadRequestFor:success:failure:]_block_invoke
@@ -3120,11 +3120,11 @@ ___60-[SMTBackendService makeDownloadRequestFor:success:failure:]_block_invoke.7
 -[SMTBackendService service]
 -[SMTBackendService setService:]
 -[SMTBackendService .cxx_destruct]
-___block_descriptor_28_e4_20s24bs_e15_v8?0"NSData"4l
-___block_descriptor_28_e4_20s24bs_e30_v16?0"NSData"4"NSError"8i12l
+___block_descriptor_48_e8_32s40bs_e16_v16?0"NSData"8l
+___block_descriptor_48_e8_32s40bs_e31_v32?0"NSData"8"NSError"16q24l
 _OBJC_CLASSLIST_REFERENCES_$_.70
-___block_descriptor_24_e4_20bs_e14_v8?0"NSURL"4l
-___block_descriptor_24_e4_20bs_e29_v16?0"NSURL"4"NSError"8i12l
+___block_descriptor_40_e8_32bs_e15_v16?0"NSURL"8l
+___block_descriptor_40_e8_32bs_e30_v32?0"NSURL"8"NSError"16q24l
 __OBJC_METACLASS_RO_$_SMTBackendService
 __OBJC_$_INSTANCE_METHODS_SMTBackendService
 _OBJC_IVAR_$_SMTBackendService._backendConfig
@@ -3132,12 +3132,12 @@ _OBJC_IVAR_$_SMTBackendService._service
 __OBJC_$_INSTANCE_VARIABLES_SMTBackendService
 __OBJC_$_PROP_LIST_SMTBackendService
 __OBJC_CLASS_RO_$_SMTBackendService
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Backend/SMTBackendService.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Backend/SMTBackendService.m
 Smartech/NetworkLayer/Backend/SMTBackendService.m
 __60-[SMTBackendService makeDownloadRequestFor:success:failure:]_block_invoke.78
 __60-[SMTBackendService makeDownloadRequestFor:success:failure:]_block_invoke
 __53-[SMTBackendService makeDataRequest:success:failure:]_block_invoke.53
-__copy_helper_block_e4_20s24b
+__copy_helper_block_e8_32s40b
 __53-[SMTBackendService makeDataRequest:success:failure:]_block_invoke
 -[SMTGeofenceRequest initWithLocation:]
 -[SMTGeofenceRequest baseURLType]
@@ -3157,7 +3157,7 @@ __OBJC_$_INSTANCE_METHODS_SMTGeofenceRequest
 __OBJC_$_INSTANCE_VARIABLES_SMTGeofenceRequest
 __OBJC_$_PROP_LIST_SMTGeofenceRequest
 __OBJC_CLASS_RO_$_SMTGeofenceRequest
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Requests/SMTGeofenceRequest.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Requests/SMTGeofenceRequest.m
 Smartech/NetworkLayer/Requests/SMTGeofenceRequest.m
 +[SMTReachability reachabilityWithHostName:]
 +[SMTReachability reachabilityWithAddress:]
@@ -3175,7 +3175,7 @@ __OBJC_$_INSTANCE_METHODS_SMTReachability
 _OBJC_IVAR_$_SMTReachability._reachabilityRef
 __OBJC_$_INSTANCE_VARIABLES_SMTReachability
 __OBJC_CLASS_RO_$_SMTReachability
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/Utility/Reachability/SMTReachability.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/Utility/Reachability/SMTReachability.m
 Smartech/Utility/Reachability/SMTReachability.m
 ReachabilityCallback
 +[SMTCoreDataController sharedInstance]
@@ -3184,10 +3184,10 @@ ___39+[SMTCoreDataController sharedInstance]_block_invoke
 -[SMTCoreDataController loadStoreAtPath:withCompletionHandler:]
 ___63-[SMTCoreDataController loadStoreAtPath:withCompletionHandler:]_block_invoke
 ___63-[SMTCoreDataController loadStoreAtPath:withCompletionHandler:]_block_invoke_2
-___copy_helper_block_e4_20s24b28w
-___destroy_helper_block_e4_20s24s28w
+___copy_helper_block_e8_32s40b48w
+___destroy_helper_block_e8_32s40s48w
 ___63-[SMTCoreDataController loadStoreAtPath:withCompletionHandler:]_block_invoke.52
-___copy_helper_block_e4_20s24s28b
+___copy_helper_block_e8_32s40s48b
 -[SMTCoreDataController viewContext]
 -[SMTCoreDataController newBackgroundContext]
 -[SMTCoreDataController performBackgroundTask:]
@@ -3212,8 +3212,8 @@ ___36-[SMTCoreDataController saveContext]_block_invoke
 -[SMTCoreDataController storePathURL]
 -[SMTCoreDataController setStorePathURL:]
 -[SMTCoreDataController .cxx_destruct]
-___block_descriptor_32_e4_20s24bs28w_e49_v12?0"NSPersistentStoreDescription"4"NSError"8l
-___block_descriptor_32_e4_20s24s28bs_e5_v4?0l
+___block_descriptor_56_e8_32s40bs48w_e50_v24?0"NSPersistentStoreDescription"8"NSError"16l
+___block_descriptor_56_e8_32s40s48bs_e5_v8?0l
 __OBJC_$_CLASS_METHODS_SMTCoreDataController
 __OBJC_METACLASS_RO_$_SMTCoreDataController
 __OBJC_$_INSTANCE_METHODS_SMTCoreDataController
@@ -3228,25 +3228,25 @@ _OBJC_IVAR_$_SMTCoreDataController._storePathURL
 __OBJC_$_INSTANCE_VARIABLES_SMTCoreDataController
 __OBJC_$_PROP_LIST_SMTCoreDataController
 __OBJC_CLASS_RO_$_SMTCoreDataController
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/DBLayer/Factory/SMTCoreDataController.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/DBLayer/Factory/SMTCoreDataController.m
 Smartech/DBLayer/Factory/SMTCoreDataController.m
 Smartech/DBLayer/Factory/SMTCoreDataController.h
 __36-[SMTCoreDataController saveContext]_block_invoke
-__copy_helper_block_e4_20s24s28b
+__copy_helper_block_e8_32s40s48b
 __63-[SMTCoreDataController loadStoreAtPath:withCompletionHandler:]_block_invoke.52
-__destroy_helper_block_e4_20s24s28w
-__copy_helper_block_e4_20s24b28w
+__destroy_helper_block_e8_32s40s48w
+__copy_helper_block_e8_32s40b48w
 __63-[SMTCoreDataController loadStoreAtPath:withCompletionHandler:]_block_invoke_2
 __63-[SMTCoreDataController loadStoreAtPath:withCompletionHandler:]_block_invoke
 __39+[SMTCoreDataController sharedInstance]_block_invoke
 __OBJC_METACLASS_RO_$_SMTInAppEventRule
 __OBJC_$_PROP_LIST_SMTInAppEventRule
 __OBJC_CLASS_RO_$_SMTInAppEventRule
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/DBLayer/Entities/SMTInAppEventRule.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/DBLayer/Entities/SMTInAppEventRule.m
 __OBJC_METACLASS_RO_$_SMTGeoFenceGroup
 __OBJC_$_PROP_LIST_SMTGeoFenceGroup
 __OBJC_CLASS_RO_$_SMTGeoFenceGroup
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/DBLayer/Entities/SMTGeoFenceGroup.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/DBLayer/Entities/SMTGeoFenceGroup.m
 +[SMTEventPayloadCreator createPayloadWithEventId:info:customPayload:]
 +[SMTEventPayloadCreator addInAppRuleParamtersToDictionary:]
 +[SMTEventPayloadCreator addAttributedParamtersToDictionary:]
@@ -3254,7 +3254,7 @@ __OBJC_CLASS_RO_$_SMTGeoFenceGroup
 __OBJC_$_CLASS_METHODS_SMTEventPayloadCreator
 __OBJC_METACLASS_RO_$_SMTEventPayloadCreator
 __OBJC_CLASS_RO_$_SMTEventPayloadCreator
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/EventsTracking/EventUtility/SMTEventPayloadCreator.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/EventsTracking/EventUtility/SMTEventPayloadCreator.m
 Smartech/EventsTracking/EventUtility/SMTEventPayloadCreator.m
 -[SMTServiceOperation init]
 -[SMTServiceOperation cancel]
@@ -3267,7 +3267,7 @@ __OBJC_$_INSTANCE_METHODS_SMTServiceOperation
 __OBJC_$_INSTANCE_VARIABLES_SMTServiceOperation
 __OBJC_$_PROP_LIST_SMTServiceOperation
 __OBJC_CLASS_RO_$_SMTServiceOperation
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Backend/SMTServiceOperation.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Backend/SMTServiceOperation.m
 Smartech/NetworkLayer/Backend/SMTServiceOperation.m
 Smartech/NetworkLayer/Backend/SMTServiceOperation.h
 +[PushNotificationAdapter sharedInstance]
@@ -3295,10 +3295,10 @@ __OBJC_$_PROTOCOL_METHOD_TYPES_SMTPushNotificationProtocol
 __OBJC_PROTOCOL_$_SMTPushNotificationProtocol
 __OBJC_LABEL_PROTOCOL_$_SMTPushNotificationProtocol
 __OBJC_PROTOCOL_REFERENCE_$_SMTPushNotificationProtocol
-___block_descriptor_36_e4_20s24s_e16_v8?0"NSError"4l
+___block_descriptor_64_e8_32s40s_e17_v16?0"NSError"8l
 ___block_literal_global.83
 _OBJC_CLASSLIST_REFERENCES_$_.84
-___block_descriptor_20_e37_v16?0"NSString"4c8"NSDictionary"12l
+___block_descriptor_32_e38_v28?0"NSString"8B16"NSDictionary"20l
 ___block_literal_global.86
 _OBJC_CLASSLIST_REFERENCES_$_.87
 __OBJC_$_CLASS_METHODS_PushNotificationAdapter
@@ -3310,7 +3310,7 @@ __OBJC_CLASS_PROTOCOLS_$_PushNotificationAdapter
 __OBJC_METACLASS_RO_$_PushNotificationAdapter
 __OBJC_$_INSTANCE_METHODS_PushNotificationAdapter
 __OBJC_CLASS_RO_$_PushNotificationAdapter
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/PushNotificationUtitlity/PushNotificationAdapter.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/PushNotificationUtitlity/PushNotificationAdapter.m
 Smartech/PushNotificationUtitlity/PushNotificationAdapter.m
 __65-[PushNotificationAdapter handleDeeplinkURLString:customPayload:]_block_invoke
 __66-[PushNotificationAdapter recordEventWithId:eventType:andPayload:]_block_invoke.82
@@ -3335,11 +3335,11 @@ __OBJC_$_INSTANCE_METHODS_SMTTrackEventOperation
 __OBJC_$_INSTANCE_VARIABLES_SMTTrackEventOperation
 __OBJC_$_PROP_LIST_SMTTrackEventOperation
 __OBJC_CLASS_RO_$_SMTTrackEventOperation
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/NetworkLayer/Operations/SMTTrackEventOperation.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/NetworkLayer/Operations/SMTTrackEventOperation.m
 Smartech/NetworkLayer/Operations/SMTTrackEventOperation.m
 __31-[SMTTrackEventOperation start]_block_invoke.22
 __31-[SMTTrackEventOperation start]_block_invoke
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/EventsTracking/Events/SMTEvent.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/EventsTracking/Events/SMTEvent.m
 EventNameString
 Smartech/EventsTracking/Events/SMTEvent.m
 EventTypeString
@@ -3353,16 +3353,16 @@ PushNotificationGatewaySourceString
 +[SMTInAppMediaDownloader downloadAndSaveMediaFromURLString:withDownloadQueue:completion:]
 ___90+[SMTInAppMediaDownloader downloadAndSaveMediaFromURLString:withDownloadQueue:completion:]_block_invoke
 ___90+[SMTInAppMediaDownloader downloadAndSaveMediaFromURLString:withDownloadQueue:completion:]_block_invoke_2
-___copy_helper_block_e4_20b28s
+___copy_helper_block_e8_32b48s
 +[SMTInAppMediaDownloader savetheMediaFileWithURL:location:andCompletion:]
 +[SMTInAppMediaDownloader removeQueryParametersFromUrl:]
-___block_descriptor_24_e4_20bs_e33_v8?0"UNNotificationAttachment"4l
-___block_descriptor_32_e4_20bs28s_e26_v12?0"NSURL"4"NSError"8l
+___block_descriptor_40_e8_32bs_e34_v16?0"UNNotificationAttachment"8l
+___block_descriptor_56_e8_32bs48s_e27_v24?0"NSURL"8"NSError"16l
 __OBJC_$_CLASS_METHODS_SMTInAppMediaDownloader
 __OBJC_METACLASS_RO_$_SMTInAppMediaDownloader
 __OBJC_CLASS_RO_$_SMTInAppMediaDownloader
-/Users/shankar/Documents/Netcore/SDK/netcoreSDK3/Smartech-SDK-New-iOS/Smartech/Smartech/InAppMessaging/InAppUtility/SMTInAppMediaDownloader.m
+/Users/manish/Desktop/KT/smartech-sdk-new-ios/Smartech/Smartech/InAppMessaging/InAppUtility/SMTInAppMediaDownloader.m
 Smartech/InAppMessaging/InAppUtility/SMTInAppMediaDownloader.m
-__copy_helper_block_e4_20b28s
+__copy_helper_block_e8_32b48s
 __90+[SMTInAppMediaDownloader downloadAndSaveMediaFromURLString:withDownloadQueue:completion:]_block_invoke_2
 __90+[SMTInAppMediaDownloader downloadAndSaveMediaFromURLString:withDownloadQueue:completion:]_block_invoke
