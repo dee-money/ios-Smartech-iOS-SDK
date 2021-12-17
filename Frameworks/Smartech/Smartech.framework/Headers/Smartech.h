@@ -21,13 +21,13 @@ FOUNDATION_EXPORT const unsigned char SmartechVersionString[];
 // In this header, you should import all the public headers of your framework using statements like
 // #import <Smartech/PublicHeader.h>
 
-#import <Smartech/SMTServiceOperation.h>
-#import <Smartech/SMTBaseRequest.h>
-#import <Smartech/SMTAppInboxSettings.h>
+#import <Smartech/SMTNotificationServiceExtension.h>
+#import <Smartech/SMTAppInboxViewController.h>
+#import <Smartech/SMTAppInboxEvent.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class SMTNotificationContentHandler, SmartechHandler;
+@class SMTNotifcationContentHandler, SmartechHandler;
 
 typedef NS_ENUM(NSUInteger, SMTLogLevel) {
     SMTLogLevelVerbose = 1,
@@ -38,6 +38,22 @@ typedef NS_ENUM(NSUInteger, SMTLogLevel) {
     SMTLogLevelFatal = 6,
     SMTLogLevelNone = 7,
 };
+
+/**
+ @brief SMTAppInboxMessageStatus is an enum for APP Inbox notificaiton message status.
+ */
+typedef NS_ENUM(NSUInteger, SMTAppInboxMessageStatus) {
+    VIEWED, READ, DELETED
+};
+
+typedef NS_ENUM(NSUInteger, SMTAppInboxMessageType) {
+    ALL_MESSAGE, INBOX_MESSAGE, READ_MESSAGE, UNREAD_MESSAGE
+};
+
+typedef void (^AppInboxCompletionBlock) (NSArray <SMTAppInboxEvent *> * _Nullable inboxMessages, NSError * _Nullable error);
+
+typedef void (^AppInboxMediaDownloadAndSaveCompletionBlock) (NSString * _Nullable mediaPath, NSError * _Nullable error);
+
 
 @protocol SmartechDelegate <NSObject>
 
@@ -72,7 +88,7 @@ typedef NS_ENUM(NSUInteger, SMTLogLevel) {
 @property (nonatomic, copy, readonly) NSString *appGroup;
 @property (nonatomic, weak, readonly) id <SmartechDelegate> delegate;
 @property (nonatomic, strong, readonly) SmartechHandler *smartechHandler;
-@property (nonatomic, strong, readonly) SMTNotificationContentHandler *notifcationContentHandler;
+@property (nonatomic, strong, readonly) SMTNotifcationContentHandler *notifcationContentHandler;
 @property (nonatomic, assign) BOOL appDidBecomeVisible;
 @property (nonatomic, weak) id <SMTAppWebViewDelegate> smtAppWebViewDelegate;
 
@@ -100,6 +116,184 @@ typedef NS_ENUM(NSUInteger, SMTLogLevel) {
  @param launchOptions The launch option dictionary.
  */
 - (void)initSDKWithDelegate:(id <SmartechDelegate>)delegate withLaunchOptions:(NSDictionary * _Nullable)launchOptions;
+
+
+#pragma mark - Push Notification Methods
+
+/**
+ @brief This method is for registering for push notification with APNS using default configuration.
+ 
+ @discussion You need to call this method if you want to show the push notification permission. By default the SDK will support sound, alert & badge.
+ 
+ You can use the below code.
+ 
+ @code
+ [Smartech sharedInstance] registerForPushNotificationWithDefaultAuthorizationOptions];
+ @endcode
+ */
+- (void)registerForPushNotificationWithDefaultAuthorizationOptions;
+
+/*!
+ @brief This method is for registering for push notification with APNS.
+ 
+ @discussion When you call this method you will see the push notification permission alert.
+ 
+ You can use the below code.
+ 
+ @code
+ UNAuthorizationOptions options = (UNAuthorizationOptionSound | UNAuthorizationOptionAlert | UNAuthorizationOptionBadge);
+ [Smartech sharedInstance] registerForPushNotificationWithAuthorizationOptions:options];
+ @endcode
+ 
+ @remark You don't need to call.
+ 
+ @code
+ [[UIApplication sharedApplication] registerForRemoteNotifications];
+ @endcode
+ 
+ @param options The notification authorization constant like alert, badge, sound etc.
+ */
+- (void)registerForPushNotificationWithAuthorizationOptions:(UNAuthorizationOptions)options;
+
+/**
+ @brief This method is for capturing the device token that the app will receive from Apple Push Notification Service (APNS). The method will send the device token to Smartech backend.
+ 
+ @discussion This method should be called inside the didRegisterForRemoteNotificationsWithDeviceToken: method of UIApplication class.
+ 
+ You can use the below code.
+ 
+ @code
+ [[Smartech sharedInstance] didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
+ @endcode
+ 
+ @param deviceToken The unique device token recieved from APNS.
+ */
+- (void)didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken;
+
+/**
+ @brief This method is used for capuring the error that may occur if the app was unable to register your device with APNS or if your app is not properly configured for remote notifications.
+ 
+ @discussion This method should be called inside the didRegisterForRemoteNotificationsWithDeviceToken: method of UIApplication class.
+ 
+ You can use the below code.
+ 
+ @code
+ [[Smartech sharedInstance] didFailToRegisterForRemoteNotificationsWithError:error];
+ @endcode
+ 
+ @param error An NSError object that encapsulates information why registration did not succeed. The app can choose to display this information to the user.
+ */
+- (void)didFailToRegisterForRemoteNotificationsWithError:(NSError *)error;
+
+/**
+ @brief This method to process incoming remote notifications for your app.
+ 
+ @discussion This method should be called inside the didReceiveRemoteNotification:fetchCompletionHandler method of UIApplication class.
+ 
+ You can use the below code.
+ 
+ @code
+ [[Smartech sharedInstance] didReceiveRemoteNotification:userInfo];
+ @endcode
+ 
+ @param userInfo A dictionary that contains information related to the remote notification, potentially including a badge number for the app icon, an alert sound, an alert message to display to the user, a notification identifier, and custom data.
+ */
+- (void)didReceiveRemoteNotification:(NSDictionary *)userInfo withCompletionHandler:(void(^)(UIBackgroundFetchResult bgFetchResult))completionBlock;
+
+/**
+ @brief The method will be called on the delegate only if the application is in the foreground. The application can choose to have the notification presented as a sound, badge, alert and/or in the notification list.
+ 
+ @discussion This method should be called inside the userNotificationCenter:willPresentNotification:withCompletionHandler method of UIApplication class.
+ 
+ You can use the below code.
+ 
+ @code
+ [[Smartech sharedInstance] willPresentForegroundNotification:notification];
+ @endcode
+ 
+ @param notification The notification object that is about to be delivered.
+ */
+- (void)willPresentForegroundNotification:(UNNotification *)notification;
+
+/**
+ @brief The method will be called on the delegate when the user responded to the notification by opening the application, dismissing the notification or choosing a UNNotificationAction.
+ 
+ @discussion This method should be called inside the userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler method of UIApplication class.
+ 
+ You can use the below code.
+ 
+ @code
+ [[Smartech sharedInstance] didReceiveNotificationResponse:response];
+ @endcode
+ 
+ @param response The user’s response to the notification. This object contains the original notification and the identifier string for the selected action.
+ */
+- (void)didReceiveNotificationResponse:(UNNotificationResponse *)response;
+
+/**
+ @brief The method will be called to get the total notiFication badge count.
+ 
+ You can use the below code.
+ 
+ @code
+ [[Smartech sharedInstance] getNotificationBadgeCount];
+ @endcode
+ 
+ @return NSInteger The notificaiton badge count.
+ */
+- (NSInteger)getNotificationBadgeCount;
+
+
+#pragma mark - Carousel Push Notifications Methods
+
+/**
+ @brief This method used to load the carousel view for the push notification.
+ 
+ @discussion This method needs to called inside the Notification Content Extensions's viewDidLoad method.
+ 
+ You can use the below code.
+ 
+ @code
+ [[Smartech sharedInstance] loadCustomNotificationContentView:view];
+ @endcode
+ 
+ @param view The view object
+ */
+- (void)loadCustomNotificationContentView:(UIView *)view;
+
+/**
+ @brief Method will call when the user made 3D touch on the notification, This method for displaying carousel Notification.
+ 
+ @discussion This method needs to called inside the Notification Content Extensions's didReceiveNotification: method.
+ 
+ You can use the below code.
+ 
+ @code
+ [[Smartech sharedInstance] didReceiveCustomNotification:notification];
+ @endcode
+ 
+ @param notification The notification object that arrived.
+ */
+- (void)didReceiveCustomNotification:(UNNotification *)notification;
+
+/**
+ @brief This method used to call when the user taps on one of the notification action buttons. The completion handler can be called after handling the action to dismiss the notification and forward the action to the app if necessary for Carousel Push Notification.
+ 
+ @discussion This method needs to called inside the Notification Content Extensions's didReceiveNotificationResponse:completionHandler: method.
+ 
+ You can use the below code.
+ 
+ @code
+ [[Smartech sharedInstance] didReceiveCustomNotificationResponse:response completionHandler:^(UNNotificationContentExtensionResponseOption option) {
+ completion(option);
+ }];
+ @endcode
+ 
+ @param response The response object that identifies the user-selected action.
+ @param completion The block to execute when you are finished performing the action.
+ */
+- (void)didReceiveCustomNotificationResponse:(UNNotificationResponse *)response completionHandler:(void (^)(UNNotificationContentExtensionResponseOption option))completion;
+
 
 #pragma mark - Debugging Methods
 
@@ -306,6 +500,36 @@ typedef NS_ENUM(NSUInteger, SMTLogLevel) {
  @return BOOL The current status of opt tracking
  */
 - (BOOL)hasOptedTracking;
+
+/**
+ @brief This method is used to opt push notifications.
+ 
+ @discussion If you call this method then we will opt in or opt out the user of recieving push notifications.
+ 
+ You can use the below code.
+ 
+ @code
+ [[Smartech sharedInstance] optPushNotification:NO];
+ @endcode
+ 
+ @param isOpted Boolean variable to set tracking.
+ */
+- (void)optPushNotification:(BOOL)isOpted;
+
+/**
+ @brief This method is used to get the current status of opt push notification.
+ 
+ @discussion If you call this method you will get the current status of the tracking which can be used to render the UI at app level.
+ 
+ You can use the below code.
+ 
+ @code
+ [[Smartech sharedInstance] hasOptedPushNotification];
+ @endcode
+ 
+ @return BOOL The current status of opt push notifications.
+ */
+- (BOOL)hasOptedPushNotification;
 
 /**
  @brief This method is used to opt in-app messages.
@@ -544,15 +768,6 @@ typedef NS_ENUM(NSUInteger, SMTLogLevel) {
  
  */
 - (void)appWebDidReceiveScriptMessage:(WKScriptMessage *)message;
-
-
-/**
-@brief This method is to be used by associated child SDKs of Smartech only.
-
-@return BOOL If YES network connection is available
-*/
-- (BOOL)isNetworkConnectionAvailable;
-
 
 @end
 
