@@ -33,6 +33,7 @@
  */
 - (void)fetchListAndSegment;
 
+- (void)hanselURlEndPoints;
 
 @end
 
