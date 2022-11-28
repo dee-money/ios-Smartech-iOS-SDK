@@ -6,31 +6,67 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Aqx/NpUg0MrUc4FUKDVmZpuDRKk=
+		EOdS47IkfP67pXBRbxlhtrsncUw=
 		</data>
 		<key>Headers/HanselProtocol.h</key>
 		<data>
-		PPSdhGSK11+NuNWS31deZPa8i0Q=
+		Ce4C+bGCKL5DxxDBOildOuLcpk4=
 		</data>
-		<key>Headers/SMTAppInboxEvent.h</key>
+		<key>Headers/PushNotificationAdapter.h</key>
 		<data>
-		K/SL/5boh5tp6BexWP3PQTTQvt4=
+		X6VtNnZwHi6pGne6uCqoEvmQq/A=
 		</data>
-		<key>Headers/SMTAppInboxViewController.h</key>
+		<key>Headers/SMTAppInboxProtocol.h</key>
 		<data>
-		sXt6+zLgl4KwAFwrTuYqOnQA+ic=
+		uVMMmj9X5AWusUadqjlnx84hAXU=
+		</data>
+		<key>Headers/SMTAppInboxSettings.h</key>
+		<data>
+		j3Q7fR5D06XkQJT3SvKj8tJYevs=
+		</data>
+		<key>Headers/SMTBackendAPIRequest.h</key>
+		<data>
+		SLFN/r3xD6ZseOkaywOYaN2r1GU=
+		</data>
+		<key>Headers/SMTBackendConfiguration.h</key>
+		<data>
+		WBDwn2e52LRODU97/QQt8gPmdwA=
+		</data>
+		<key>Headers/SMTBackendService.h</key>
+		<data>
+		eBadbjVtqz+5JdDh6IpYth7cSeo=
+		</data>
+		<key>Headers/SMTBaseRequest.h</key>
+		<data>
+		0l+pXUN41ggwPuB1shOuApecJ2E=
+		</data>
+		<key>Headers/SMTHTTPMethod.h</key>
+		<data>
+		a9FPuHhLSGKxP9MPFlninaZIdtg=
 		</data>
 		<key>Headers/SMTManagedObject.h</key>
 		<data>
-		fMpVkrqlbI7Ofy4qZBmBzFQgqto=
+		Phm1DkXblwogWWg/0asOo5JqZ5w=
 		</data>
-		<key>Headers/SMTNotificationServiceExtension.h</key>
+		<key>Headers/SMTOperation.h</key>
 		<data>
-		Aob+q6ktB5TSio7w13y16L0gc28=
+		YPdrw5OFtoQriF8HYtMturjvIu4=
+		</data>
+		<key>Headers/SMTPushNotificationProtocol.h</key>
+		<data>
+		bU1DTR4mDXYl7GGS4Q3WBkA+uzY=
+		</data>
+		<key>Headers/SMTServiceOperation.h</key>
+		<data>
+		ndDnU1muzcozs4tr7Ms75US0Bps=
+		</data>
+		<key>Headers/SMTSmartechProtocol.h</key>
+		<data>
+		kG6smOhNtV5SU4vVWTI/je7ovhE=
 		</data>
 		<key>Headers/Smartech.h</key>
 		<data>
-		sFbt8ijPqkMwiZqE7P5sTYDOsWA=
+		suyfggdU/u9KdVzBirw5JxPqlBg=
 		</data>
 		<key>Headers/SmartechAdapter.h</key>
 		<data>
@@ -38,55 +74,47 @@
 		</data>
 		<key>Headers/SmartechProtocol.h</key>
 		<data>
-		fS6x6Ox2iSm8Igca7o0DN5XqzEc=
+		Z5vdrd00hf5Ne8cokeGFT5QKZUM=
+		</data>
+		<key>Headers/SmartechPushProtocol.h</key>
+		<data>
+		Ldj5NCXYku84MxHkRrTw1hVKiO0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/+tVxj+cm6lxD+TSjQMn8G4wvI4=
+		RVOwCO60lW/SICxvn+2ahZ2llJM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		KDhLJ7PT4waIwihVMk5wCv7WYII=
 		</data>
-		<key>SMTCarouselCollectionViewCell.nib/objects-12.3+.nib</key>
-		<data>
-		+qX1XVqUIjMJtB0IbEzU1Zfyt8w=
-		</data>
-		<key>SMTCarouselCollectionViewCell.nib/runtime.nib</key>
-		<data>
-		kdUvo4tRlmkkX5H6gysUEvVoDPY=
-		</data>
-		<key>SMTCarouselView.nib/objects-11.0+.nib</key>
-		<data>
-		AplS6mYAUAMxkGUA1kfcHwVGB5I=
-		</data>
-		<key>SMTCarouselView.nib/runtime.nib</key>
-		<data>
-		ME9F/dhPWkt+Dn/VEaayaCD+4lo=
-		</data>
 		<key>SmartechDB.momd/SmartechDB 2.mom</key>
 		<data>
-		BrWPsBwVr7eeQjMhosf7j2ejoTg=
+		SNTr5M4tKAbJkdJy3Svt+p6zCZU=
 		</data>
 		<key>SmartechDB.momd/SmartechDB 3.mom</key>
 		<data>
-		YdT66WIZci5+GSDd+q/T5lVTLGw=
+		YwhwgOobnzhzviSZ/UVGO9JHJO8=
 		</data>
 		<key>SmartechDB.momd/SmartechDB 4.mom</key>
 		<data>
-		YdT66WIZci5+GSDd+q/T5lVTLGw=
+		YwhwgOobnzhzviSZ/UVGO9JHJO8=
 		</data>
-		<key>SmartechDB.momd/SmartechDB 4.omo</key>
+		<key>SmartechDB.momd/SmartechDB 5.mom</key>
 		<data>
-		7F5dUoR70RIGzykT3eMdIIWJH78=
+		Pgq7bDVYFOJOUHvYlRynhiGBCD8=
+		</data>
+		<key>SmartechDB.momd/SmartechDB 5.omo</key>
+		<data>
+		EsK0b06WTXxnPNqhqIpDU93wthA=
 		</data>
 		<key>SmartechDB.momd/SmartechDB.mom</key>
 		<data>
-		e+euim6JFKP9IvEP/QRPiGGU7z8=
+		+EZQxEoWXgDNr0dLFNdEX/PeX0g=
 		</data>
 		<key>SmartechDB.momd/VersionInfo.plist</key>
 		<data>
-		kztOzHWaaUZXM+8RK1/aSBw7dwc=
+		j7BBg/Ay6L8Xp+Rdt9WDouecWuY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -95,77 +123,176 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Aqx/NpUg0MrUc4FUKDVmZpuDRKk=
+			EOdS47IkfP67pXBRbxlhtrsncUw=
 			</data>
 			<key>hash2</key>
 			<data>
-			BMputnuZQ5QG1x65fNa3wcgy2UOLYSjEjeAvtixXBcQ=
+			ESVYjeQFiumcUDyK6eq2Hkm0cyOfTrWuIRvX+1MvLg0=
 			</data>
 		</dict>
 		<key>Headers/HanselProtocol.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PPSdhGSK11+NuNWS31deZPa8i0Q=
+			Ce4C+bGCKL5DxxDBOildOuLcpk4=
 			</data>
 			<key>hash2</key>
 			<data>
-			yyru8Hzk7967GYw0vjadYAG+vBd3bNaSx9bm004m3JM=
+			MFx/H2U71edxGm2Xye6bygYugs8nf+lAof/haABpw08=
 			</data>
 		</dict>
-		<key>Headers/SMTAppInboxEvent.h</key>
+		<key>Headers/PushNotificationAdapter.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K/SL/5boh5tp6BexWP3PQTTQvt4=
+			X6VtNnZwHi6pGne6uCqoEvmQq/A=
 			</data>
 			<key>hash2</key>
 			<data>
-			NRrtVLjI1PLxEEvP5sS6Q6wAzXwJrk7E55aGJq79H8w=
+			j1v/Rck2UIv2SdSmCh6+DX8QQOTrqwqY/at4yyurbj8=
 			</data>
 		</dict>
-		<key>Headers/SMTAppInboxViewController.h</key>
+		<key>Headers/SMTAppInboxProtocol.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sXt6+zLgl4KwAFwrTuYqOnQA+ic=
+			uVMMmj9X5AWusUadqjlnx84hAXU=
 			</data>
 			<key>hash2</key>
 			<data>
-			UPveyR4q2BZokfY8Vg0EyfIsFjnV1MpG/K0/i8TsXMk=
+			mWzO0lNVU2Du+1Dkur4tRKi3pcKWRNM3zpfqMBYmfDo=
+			</data>
+		</dict>
+		<key>Headers/SMTAppInboxSettings.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			j3Q7fR5D06XkQJT3SvKj8tJYevs=
+			</data>
+			<key>hash2</key>
+			<data>
+			PuQ52dKZKJYf+k72bYwy4Y5tsiUUjvJts4ahDWdY0DM=
+			</data>
+		</dict>
+		<key>Headers/SMTBackendAPIRequest.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SLFN/r3xD6ZseOkaywOYaN2r1GU=
+			</data>
+			<key>hash2</key>
+			<data>
+			stXzc/oQlILEWA4kZRsF/Zs0Vv81p/k6eQXHQPxzanQ=
+			</data>
+		</dict>
+		<key>Headers/SMTBackendConfiguration.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WBDwn2e52LRODU97/QQt8gPmdwA=
+			</data>
+			<key>hash2</key>
+			<data>
+			u5m1YL8trmppOQmuhwZ0vJW+sDQ+6l1JKlWyR1fduDU=
+			</data>
+		</dict>
+		<key>Headers/SMTBackendService.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eBadbjVtqz+5JdDh6IpYth7cSeo=
+			</data>
+			<key>hash2</key>
+			<data>
+			eEwO9ho620T46N3zABt1mXBN4iZw1R2cqs+CPd0uwXo=
+			</data>
+		</dict>
+		<key>Headers/SMTBaseRequest.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0l+pXUN41ggwPuB1shOuApecJ2E=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZOfIoOpuf/9e0jZzGod5T43Mewjjr/oTGfSrzmpsRmQ=
+			</data>
+		</dict>
+		<key>Headers/SMTHTTPMethod.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			a9FPuHhLSGKxP9MPFlninaZIdtg=
+			</data>
+			<key>hash2</key>
+			<data>
+			EpLgQQ8Gx0I6zpWNfFJ7fZo9gCmdM7O2EECwotIK/gc=
 			</data>
 		</dict>
 		<key>Headers/SMTManagedObject.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fMpVkrqlbI7Ofy4qZBmBzFQgqto=
+			Phm1DkXblwogWWg/0asOo5JqZ5w=
 			</data>
 			<key>hash2</key>
 			<data>
-			OS9TICt98J20xBkDcAoFZ9nyoQxDPcQKPfvbgHSL4C4=
+			QFvIa35NR0Rsk95DpV1XujSMAjK7KCSJvk77XOp+qzo=
 			</data>
 		</dict>
-		<key>Headers/SMTNotificationServiceExtension.h</key>
+		<key>Headers/SMTOperation.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Aob+q6ktB5TSio7w13y16L0gc28=
+			YPdrw5OFtoQriF8HYtMturjvIu4=
 			</data>
 			<key>hash2</key>
 			<data>
-			2VOdqaw6LhjArPG+sMsBWIWX3pkrG2CEAfJlMXnX6qc=
+			xNdGSDPFQiOdOdKEZg8yJYJIMB7KE0xr6BbYKGOn8S8=
+			</data>
+		</dict>
+		<key>Headers/SMTPushNotificationProtocol.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bU1DTR4mDXYl7GGS4Q3WBkA+uzY=
+			</data>
+			<key>hash2</key>
+			<data>
+			uKQFinbIfH5pjYxK2h81b5LFqOFtVJ0PM47p4OP6jTE=
+			</data>
+		</dict>
+		<key>Headers/SMTServiceOperation.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ndDnU1muzcozs4tr7Ms75US0Bps=
+			</data>
+			<key>hash2</key>
+			<data>
+			zQWuF9vp6b1t1DtgASys0qJ99EpMPyUF4NWBVnOV+tA=
+			</data>
+		</dict>
+		<key>Headers/SMTSmartechProtocol.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kG6smOhNtV5SU4vVWTI/je7ovhE=
+			</data>
+			<key>hash2</key>
+			<data>
+			xqYthOL3MUQXBvMz6goEH2AS0GqyjuKTUcYzRlnvnyo=
 			</data>
 		</dict>
 		<key>Headers/Smartech.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sFbt8ijPqkMwiZqE7P5sTYDOsWA=
+			suyfggdU/u9KdVzBirw5JxPqlBg=
 			</data>
 			<key>hash2</key>
 			<data>
-			TO9T2hj4fLjcWB0Q1P2XhRUu3I6gz7EeAlS/hDMp5/s=
+			bHkDHV9D0w392erbRoLAAfLAqGPdFGD7r9tgbjLNtaM=
 			</data>
 		</dict>
 		<key>Headers/SmartechAdapter.h</key>
@@ -183,11 +310,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fS6x6Ox2iSm8Igca7o0DN5XqzEc=
+			Z5vdrd00hf5Ne8cokeGFT5QKZUM=
 			</data>
 			<key>hash2</key>
 			<data>
-			olldmpWE0/H0eZIORnVPWWGa6D4irA/fJckiqnMKuto=
+			CE3zzHseeBWS1RFErvxbmJ4dADYWc1t1gMrziBEp+sg=
+			</data>
+		</dict>
+		<key>Headers/SmartechPushProtocol.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ldj5NCXYku84MxHkRrTw1hVKiO0=
+			</data>
+			<key>hash2</key>
+			<data>
+			1pvYxOvUhK10hcqMSyecXS+mKpYWVq+qonSuACUaHc0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -201,114 +339,81 @@
 			OvgxWajUPZ6PGo4CmKQXysXXd3KiTMyIb98hxPRZejk=
 			</data>
 		</dict>
-		<key>SMTCarouselCollectionViewCell.nib/objects-12.3+.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+qX1XVqUIjMJtB0IbEzU1Zfyt8w=
-			</data>
-			<key>hash2</key>
-			<data>
-			OXEQ84M3Ds4FSg770g1Fq62sJkAiCT2e5BiAUV4CMqk=
-			</data>
-		</dict>
-		<key>SMTCarouselCollectionViewCell.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			kdUvo4tRlmkkX5H6gysUEvVoDPY=
-			</data>
-			<key>hash2</key>
-			<data>
-			6p/jSjDzizi5Wwq7MWTpAg8xUfEzKiUNwhTv7dfHm3o=
-			</data>
-		</dict>
-		<key>SMTCarouselView.nib/objects-11.0+.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			AplS6mYAUAMxkGUA1kfcHwVGB5I=
-			</data>
-			<key>hash2</key>
-			<data>
-			HCgrKwQ4nehr3xo3BOuYEnjvuhR+RgEMbuaJvHKtjMs=
-			</data>
-		</dict>
-		<key>SMTCarouselView.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ME9F/dhPWkt+Dn/VEaayaCD+4lo=
-			</data>
-			<key>hash2</key>
-			<data>
-			R9E/V6TiRXjl0zbOpIEkVQi1zWy2Rd85vGk+Z6YMGv0=
-			</data>
-		</dict>
 		<key>SmartechDB.momd/SmartechDB 2.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BrWPsBwVr7eeQjMhosf7j2ejoTg=
+			SNTr5M4tKAbJkdJy3Svt+p6zCZU=
 			</data>
 			<key>hash2</key>
 			<data>
-			J8FA9+H8JRGs1vZ6Ysvoa8tf5AbV2v39tPGV0MwEO68=
+			Sb31mu1CE0Uyosm3of+7NXD5aFf+06/UPMN9he228rI=
 			</data>
 		</dict>
 		<key>SmartechDB.momd/SmartechDB 3.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YdT66WIZci5+GSDd+q/T5lVTLGw=
+			YwhwgOobnzhzviSZ/UVGO9JHJO8=
 			</data>
 			<key>hash2</key>
 			<data>
-			XVU0sQwx4bJrb5HPsCpgYyBB4euXuy472PF3K0yX7dg=
+			Ma7Jo2GfNff5CWxIONddbf65pmi7wonabSidtontow0=
 			</data>
 		</dict>
 		<key>SmartechDB.momd/SmartechDB 4.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YdT66WIZci5+GSDd+q/T5lVTLGw=
+			YwhwgOobnzhzviSZ/UVGO9JHJO8=
 			</data>
 			<key>hash2</key>
 			<data>
-			XVU0sQwx4bJrb5HPsCpgYyBB4euXuy472PF3K0yX7dg=
+			Ma7Jo2GfNff5CWxIONddbf65pmi7wonabSidtontow0=
 			</data>
 		</dict>
-		<key>SmartechDB.momd/SmartechDB 4.omo</key>
+		<key>SmartechDB.momd/SmartechDB 5.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7F5dUoR70RIGzykT3eMdIIWJH78=
+			Pgq7bDVYFOJOUHvYlRynhiGBCD8=
 			</data>
 			<key>hash2</key>
 			<data>
-			lDQc6B8Ea+VM9Khw6UUErsGImL0AfzGaaXsxjVlx/LU=
+			lUBj4eOgykH45HScnSCDN9mRpnul9xhRH3aGVB7lb4I=
+			</data>
+		</dict>
+		<key>SmartechDB.momd/SmartechDB 5.omo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EsK0b06WTXxnPNqhqIpDU93wthA=
+			</data>
+			<key>hash2</key>
+			<data>
+			Hz/QSSqnk9cCUX/uLBEEhoWNuuCACc0I8ZXf4UKprBY=
 			</data>
 		</dict>
 		<key>SmartechDB.momd/SmartechDB.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e+euim6JFKP9IvEP/QRPiGGU7z8=
+			+EZQxEoWXgDNr0dLFNdEX/PeX0g=
 			</data>
 			<key>hash2</key>
 			<data>
-			xp8r76Ltc2/UN/D+pXlGC+NoYJnLahKaSHFM1qJH00k=
+			q7HFoXbBRz+5cGwMJg1XhPJbBTyuIdBPBr3/jY2GUGw=
 			</data>
 		</dict>
 		<key>SmartechDB.momd/VersionInfo.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kztOzHWaaUZXM+8RK1/aSBw7dwc=
+			j7BBg/Ay6L8Xp+Rdt9WDouecWuY=
 			</data>
 			<key>hash2</key>
 			<data>
-			tRBavXP4PEOKcSoWvLgJRXJz7Szlx+GvEBnSBMYyMlY=
+			I9IPRf0KMPfdwnLVNRKpOh2KROQaMcsVRMYMEJrTz+A=
 			</data>
 		</dict>
 	</dict>
