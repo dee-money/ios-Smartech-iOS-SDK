@@ -77,7 +77,6 @@ Set if the url with Smartech for adding a test device.
 - (BOOL)handleTestDeviceUrl:(NSURL * _Nullable)url;
 
 - (void)hanselEndPoints:(NSDictionary * _Nonnull)dict;
-
 @end
 
 #endif /* HanselProtocol_h */
