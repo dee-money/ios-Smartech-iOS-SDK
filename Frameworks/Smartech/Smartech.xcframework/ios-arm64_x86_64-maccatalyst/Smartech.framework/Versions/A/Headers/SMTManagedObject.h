@@ -144,6 +144,21 @@ static NSString *const kSMTDatabaseObjectID = @"objectID";
 
 + (NSArray *)findObjectsWithDistinct:(NSManagedObjectContext *)context;
 
+/**
+@brief This method is called to fetch the objects from the database with record limit
+
+@param predicate The where clause.
+@param sortDescriptor The sort descriptor.
+@param recordLimit record limit
+@param context The core data context.
+
+@return NSArray A list of objects.
+ */
++ (NSArray *)findObjectsWithPredictate:(NSPredicate * _Nullable)predicate
+                        sortDescriptor:(NSSortDescriptor * _Nullable)sortDescriptor
+                             withLimit:(NSInteger)recordLimit
+                             inContext:(NSManagedObjectContext *)context;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -47,7 +47,7 @@ typedef NS_ENUM(NSUInteger, SMTLogLevel) {
 /**
  @brief This is Smartech SDK's delegate method for deeplink handling along with custom payload. This delegate method will be triggered when the user clicks the push notification or deeplink
  
- @param deeplinkURLString - Deeplink string that is passed on push nofitication or inapp message click.
+ @param deeplinkURLString - Deeplink string that is passed on push nofitication or in-app message click.
  @param customPayload - Contains url parameters in dictionary format.
  */
 - (void)handleDeeplinkActionWithURLString:(NSString *)deeplinkURLString andCustomPayload:(NSDictionary *_Nullable)customPayload;

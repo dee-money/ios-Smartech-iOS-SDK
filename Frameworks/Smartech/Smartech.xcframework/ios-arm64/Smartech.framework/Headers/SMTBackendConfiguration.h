@@ -23,11 +23,11 @@ typedef NS_ENUM(NSUInteger, BackendBaseURLType) {
     BackendBaseURLTypeAppInit = 0,
     BackendBaseURLTypeEvents = 1,
     BackendBaseURLTypePushAmp = 2,
-    BackendBaseURLTypeInApp = 3,
-    BackendBaseURLTypeInbox = 4,
+    BackendBaseURLTypeInAppMessage = 3,
+    BackendBaseURLTypeAppInbox = 4,
     BackendBaseURLTypeCategory = 5,
     BackendBaseURLTypeListSegment = 6,
-    BackendBaseURLTypeGetGeofences = 7
+    BackendBaseURLTypeGeofences = 7
 };
 
 
@@ -37,13 +37,12 @@ typedef NS_ENUM(NSUInteger, BackendBaseURLType) {
 @interface SMTBackendConfiguration : NSObject
 
 @property (nonatomic, readonly, copy) NSURL *baseAppInitURL;
-@property (nonatomic, readonly, copy) NSURL *baseTrackAppActUrl;
-@property (nonatomic, readonly, copy) NSURL *basePushAmpUrl;
-@property (nonatomic, readonly, copy) NSURL *baseInAppUrl;
-@property (nonatomic, readonly, copy) NSURL *baseInboxUrl;
-@property (nonatomic, readonly, copy) NSURL *listSegmentUrl;
-@property (nonatomic, readonly, copy) NSURL *geofencesUrl;
-@property (nonatomic, readonly, copy) NSURL *getMessageCountUrl;
+@property (nonatomic, readonly, copy) NSURL *baseTrackAppActURL;
+@property (nonatomic, readonly, copy) NSURL *basePushAmpURL;
+@property (nonatomic, readonly, copy) NSURL *baseInAppURL;
+@property (nonatomic, readonly, copy) NSURL *baseInboxURL;
+@property (nonatomic, readonly, copy) NSURL *listSegmentURL;
+@property (nonatomic, readonly, copy) NSURL *geofencesURL;
 
 /**
  @brief Returns the global SMTBackendConfiguration instance.
