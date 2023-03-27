@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/SMTPushNotificationProtocol.h</key>
 		<data>
-		bU1DTR4mDXYl7GGS4Q3WBkA+uzY=
+		XYBr5djSGLWN0LCwciy2EpH8Vv4=
 		</data>
 		<key>Headers/SMTServiceOperation.h</key>
 		<data>
@@ -78,11 +78,11 @@
 		</data>
 		<key>Headers/SmartechPushProtocol.h</key>
 		<data>
-		Ldj5NCXYku84MxHkRrTw1hVKiO0=
+		EbYLtyFTrGgsmcXN+z0AGLIgX7M=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aWsYfuvczgnxcX4pkzTkTjV7pWU=
+		vP3Rgf8kREbQtayvMVLWQUbmiks=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -255,11 +255,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bU1DTR4mDXYl7GGS4Q3WBkA+uzY=
+			XYBr5djSGLWN0LCwciy2EpH8Vv4=
 			</data>
 			<key>hash2</key>
 			<data>
-			uKQFinbIfH5pjYxK2h81b5LFqOFtVJ0PM47p4OP6jTE=
+			iQgC3uyjixKB/5wXVtSBZBA5En0AvLCiEsvk34Sr7kg=
 			</data>
 		</dict>
 		<key>Headers/SMTServiceOperation.h</key>
@@ -321,11 +321,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ldj5NCXYku84MxHkRrTw1hVKiO0=
+			EbYLtyFTrGgsmcXN+z0AGLIgX7M=
 			</data>
 			<key>hash2</key>
 			<data>
-			1pvYxOvUhK10hcqMSyecXS+mKpYWVq+qonSuACUaHc0=
+			ykmSmL+dPE8AcJMQMeqSnRUe39NVu/PUVpv5P9Yn1oU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

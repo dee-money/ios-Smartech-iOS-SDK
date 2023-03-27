@@ -11,7 +11,9 @@
 
 @protocol SmartechPushProtocol
 
-- (BOOL)checkIfTokenNeedToBeSend;
+- (BOOL)checkIfTokenNeedsToBeSend;
+
+- (BOOL)checkIfNotificationPermissionNeedsToBeSend;
 
 - (void)processEventsManually;
 

@@ -11,7 +11,7 @@
 #import <UserNotifications/UserNotifications.h>
 #import <UserNotificationsUI/UserNotificationsUI.h>
 
-@protocol SMTPushNotificationProtocol
+@protocol SMTPushNotificationProtocol 
 
 - (void)initPushNotificationSDKWith:(NSDictionary * _Nullable)launchOptions andDelegate:(id <SmartechPushProtocol> _Nullable)pushNotificationProtocol with:(NSString *_Nullable)appGroup;
 
