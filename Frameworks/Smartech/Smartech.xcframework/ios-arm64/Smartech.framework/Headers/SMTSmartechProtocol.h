@@ -19,6 +19,14 @@
  */
 - (void)trackEventFromAppInboxWithID:(NSInteger)eventId andPayload:(NSDictionary * _Nullable)payloadDictionary;
 
+/**
+ @brief This method is for passing tracked events from AppInbox SDK to Smartech SDK.
+ 
+ @param deeplinkString Deeplink string that is passed on push nofitication or in-app message click.
+ @param payload Contains notification payload.
+ */
+- (void)handleDeeplinkURLString:(NSString * _Nullable)deeplinkString payload:(NSDictionary * _Nullable)payload;
+
 @end
 
 #endif /* SMTSmartechProtocol_h */
