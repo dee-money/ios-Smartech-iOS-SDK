@@ -70,7 +70,7 @@
 		</data>
 		<key>Headers/SmartechAdapter.h</key>
 		<data>
-		XZ75tXnaT0JFFs2LJok48m8/5u4=
+		gZ/9ICLRpvx24/jU11euIR8yJYE=
 		</data>
 		<key>Headers/SmartechProtocol.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LVAfCA0z8oPNqPK8IZt6ma+wp+Q=
+		04d6QF7l/IxuQcUJgzyrgZfEDTI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -299,11 +299,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XZ75tXnaT0JFFs2LJok48m8/5u4=
+			gZ/9ICLRpvx24/jU11euIR8yJYE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z6l1pHhtLbxmbAWwjf3NCRiRifPG+XiFcZnZ3sY9gU8=
+			BT093sWyg8eQa7RPlz2b6ELb3g0u59yAFjtpP32l+Rc=
 			</data>
 		</dict>
 		<key>Headers/SmartechProtocol.h</key>

@@ -71,6 +71,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)hanselURLEndPoints:(NSDictionary * _Nullable)endPointDict;
 
+#pragma mark - Share system events with Hansel SDK
+
+/**
+ @brief This method is used to record life cycle events.
+ */
+- (void)trackAppLaunchEvents;
+
 @end
 
 NS_ASSUME_NONNULL_END

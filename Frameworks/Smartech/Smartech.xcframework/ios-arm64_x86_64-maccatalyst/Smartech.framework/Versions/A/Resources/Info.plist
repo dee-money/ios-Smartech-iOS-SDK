@@ -19,7 +19,7 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>3.2.13</string>
+	<string>3.2.14</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
@@ -50,7 +50,7 @@
 		<dict/>
 	</dict>
 	<key>Smartech</key>
-	<string>3.2.13</string>
+	<string>3.2.14</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>2</integer>
