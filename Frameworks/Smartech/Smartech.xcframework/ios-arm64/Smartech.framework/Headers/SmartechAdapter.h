@@ -43,6 +43,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)setListAndSegmentData:(NSDictionary *)listSegmentDictionary;
 
+- (void)removeListAndSegmentData;
+
 /**
  @brief This method would set the user identity locally and with all subsequent events this identity will be send.
  

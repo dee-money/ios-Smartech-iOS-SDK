@@ -70,11 +70,11 @@
 		</data>
 		<key>Headers/SmartechAdapter.h</key>
 		<data>
-		gZ/9ICLRpvx24/jU11euIR8yJYE=
+		rI6N5Twtbukx5PXZ74J40FGzpcY=
 		</data>
 		<key>Headers/SmartechProtocol.h</key>
 		<data>
-		Z5vdrd00hf5Ne8cokeGFT5QKZUM=
+		Y3V3wQXm5IXRJk3xCUX2mI/Ilw8=
 		</data>
 		<key>Headers/SmartechPushProtocol.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		04d6QF7l/IxuQcUJgzyrgZfEDTI=
+		pxpwGg/xWk3TAuwZyprkFNsGUWM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -299,22 +299,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gZ/9ICLRpvx24/jU11euIR8yJYE=
+			rI6N5Twtbukx5PXZ74J40FGzpcY=
 			</data>
 			<key>hash2</key>
 			<data>
-			BT093sWyg8eQa7RPlz2b6ELb3g0u59yAFjtpP32l+Rc=
+			6coxgI/jzt8vVCBASbmb6iMcIh+Y4CX6SqTEndenl84=
 			</data>
 		</dict>
 		<key>Headers/SmartechProtocol.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Z5vdrd00hf5Ne8cokeGFT5QKZUM=
+			Y3V3wQXm5IXRJk3xCUX2mI/Ilw8=
 			</data>
 			<key>hash2</key>
 			<data>
-			CE3zzHseeBWS1RFErvxbmJ4dADYWc1t1gMrziBEp+sg=
+			XZwr4vTQNxwUOXcPIl1AMXvUk9ZVkoHYZOTUjJN7dK0=
 			</data>
 		</dict>
 		<key>Headers/SmartechPushProtocol.h</key>

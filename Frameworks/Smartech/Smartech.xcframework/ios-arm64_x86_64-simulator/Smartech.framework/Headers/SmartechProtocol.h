@@ -33,6 +33,8 @@
  */
 - (void)fetchListAndSegment;
 
+- (void)removeListAndSegmentData;
+
 
 @end
 
