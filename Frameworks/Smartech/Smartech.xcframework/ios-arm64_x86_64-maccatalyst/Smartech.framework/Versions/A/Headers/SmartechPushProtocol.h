@@ -27,4 +27,6 @@
 
 - (void)handleDeeplinkURLString:(NSString *_Nullable)deeplinkString customPayload:(NSDictionary * _Nullable)customPayload;
 
+- (void)loadSmartechStore;
+
 @end
