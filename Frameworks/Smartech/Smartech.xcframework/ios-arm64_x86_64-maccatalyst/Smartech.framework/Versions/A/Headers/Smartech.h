@@ -27,7 +27,7 @@ FOUNDATION_EXPORT const unsigned char SmartechVersionString[];
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class SMTNotificationContentHandler, SmartechHandler;
+@class SmartechHandler;
 
 typedef NS_ENUM(NSUInteger, SMTLogLevel) {
     SMTLogLevelVerbose = 1,
@@ -79,7 +79,6 @@ typedef NS_ENUM(NSUInteger, SMTLogLevel) {
 @property (nonatomic, copy, readonly) NSString *appGroup;
 @property (nonatomic, weak, readonly) id <SmartechDelegate> delegate;
 @property (nonatomic, strong, readonly) SmartechHandler *smartechHandler;
-@property (nonatomic, strong, readonly) SMTNotificationContentHandler *notifcationContentHandler;
 @property (nonatomic, assign) BOOL appDidBecomeVisible;
 @property (nonatomic, weak) id <SMTAppWebViewDelegate> smtAppWebViewDelegate;
 
