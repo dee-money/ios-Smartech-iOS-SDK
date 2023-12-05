@@ -17,7 +17,7 @@
 
 - (void)processEventsManually;
 
-- (BOOL)checkIfAttributionNeedsToBeDropped:(NSString *_Nullable)appIdentity withRecievedIdentity:(NSString *_Nullable)recievedIdentity;
+- (BOOL)checkIfAttributionNeedsToBeUpdated:(NSString *_Nullable)appIdentity withRecievedIdentity:(NSString *_Nullable)recievedIdentity;
 
 - (void)handleOpenOperation:(NSInvocationOperation *_Nullable)operation;
 
