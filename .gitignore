@@ -31,3 +31,4 @@ profile
 .*.sw[a-z]
 *.un~
 Session.vim
+*.zip
