@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Build</key>
+	<string>2</string>
 	<key>BuildMachineOSBuild</key>
 	<string>23D60</string>
 	<key>CFBundleDevelopmentRegion</key>
@@ -19,7 +21,7 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>3.5.1</string>
+	<string>3.5.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
@@ -50,7 +52,7 @@
 		<dict/>
 	</dict>
 	<key>Smartech</key>
-	<string>3.5.1</string>
+	<string>3.5.0</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>2</integer>
